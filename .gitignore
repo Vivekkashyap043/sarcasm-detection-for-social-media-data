@@ -1,0 +1,19 @@
+# Ignore downloaded media and model weights
+downloads/
+models/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+data/context_videos/
+data/utterance_videos/
+venv/
+.venv/
+models/
+logs/
+data/context_videos/
+data/utterance_videos/
+data/processed/

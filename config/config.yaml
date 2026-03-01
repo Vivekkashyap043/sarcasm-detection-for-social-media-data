@@ -1,0 +1,88 @@
+# Multimodal Sarcasm Detection Configuration (CPU)
+
+# Data Configuration
+data:
+  raw_data_path: "./data"
+  processed_data_path: "./data/processed"
+  metadata_filename: "metadata.xlsx"
+  train_ratio: 0.7               # Used only when use_full_data_for_training=false
+  test_ratio: 0.3                # Used only when use_full_data_for_training=false
+  use_full_data_for_training: true  # True => train on 100% labeled data
+  random_seed: 42
+
+# Video / Image Configuration
+video:
+  target_fps: 2
+  frame_size: [224, 224]
+  max_video_length: 30
+  n_frames_per_segment: 3
+
+# Audio Configuration
+audio:
+  sample_rate: 16000
+  max_audio_length: 12
+  use_video_audio: true
+  cache_waveforms: true
+  cache_size: 256
+
+# Text Configuration
+text:
+  max_length: 256
+  model_name: "distilbert-base-uncased"
+  n_hidden: 768
+
+# Feature Dimensions
+features:
+  video_feature_dim: 512
+  text_feature_dim: 768
+  audio_feature_dim: 80
+
+# Model Configuration
+model:
+  architecture: "multimodal_attention"
+  hidden_dim: 512
+  num_layers: 2
+  dropout: 0.3
+  output_dim: 2
+
+# Training Configuration
+training:
+  batch_size: 20
+  learning_rate: 1e-3
+  num_epochs: 10
+  validation_fraction: 0.2
+  validation_mode_for_full_data: "overlap"   # overlap | split
+  optimizer: "adam"
+  loss_function: "cross_entropy"
+  early_stopping_patience: 5
+  scheduler: "cosine"
+
+# Device Configuration
+device:
+  device_type: "cpu"
+
+# Paths
+paths:
+  models_dir: "./models"
+  results_dir: "./results"
+  logs_dir: "./logs"
+
+# Explainability
+explainability:
+  method: "lime"   # lime | shap
+  num_samples: 1000
+  num_features: 10
+  max_text_chars_for_lime: 1200
+  neighborhood_size: 50
+
+# Social Media Inference Defaults
+social_media:
+  default_subreddits: ["AskReddit", "funny", "programming"]
+  posts_per_subreddit: 10
+  comments_per_post: 5
+  output_file: "results/reddit_multimodal_results.json"
+
+# Logging
+logging:
+  level: "INFO"
+  log_file: "./logs/training.log"
