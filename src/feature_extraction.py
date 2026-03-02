@@ -226,6 +226,7 @@ class AudioFeatureExtractor:
         self.cache_size = int(config.get('audio', {}).get('cache_size', 256))
         self._waveform_cache: Dict[str, Tuple[np.ndarray, int]] = {}
         self._cache_order: List[str] = []
+        self._failed_audio_paths: set[str] = set()
 
     @staticmethod
     def _is_audio_file(path: str) -> bool:
@@ -266,6 +267,10 @@ class AudioFeatureExtractor:
         end_time: Optional[float] = None
     ) -> torch.Tensor:
         if not audio_path or not os.path.exists(audio_path) or not _LIBROSA_AVAILABLE:
+            return torch.zeros(self.audio_feature_dim, device=self.device)
+
+        # If this file previously failed decoding, skip retrying for every comment/post reuse.
+        if audio_path in self._failed_audio_paths:
             return torch.zeros(self.audio_feature_dim, device=self.device)
 
         ext = os.path.splitext(audio_path)[1].lower()
@@ -315,7 +320,11 @@ class AudioFeatureExtractor:
 
             return torch.tensor(features, dtype=torch.float32, device=self.device)
         except Exception as e:
-            logger.warning(f"Audio feature extraction failed for {audio_path}: {e}")
+            self._failed_audio_paths.add(audio_path)
+            message = str(e).strip() if str(e).strip() else e.__class__.__name__
+            logger.warning(
+                f"Audio feature extraction skipped for {audio_path} (unreadable/unsupported audio stream): {message}"
+            )
             return torch.zeros(self.audio_feature_dim, device=self.device)
 
 

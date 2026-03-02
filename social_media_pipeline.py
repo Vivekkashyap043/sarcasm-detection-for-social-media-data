@@ -183,6 +183,26 @@ def fetch_post_comments(permalink: str, limit: int) -> List[Dict[str, Any]]:
         return []
 
 
+def _get_direct_reddit_video_url(post: Dict[str, Any]) -> Optional[str]:
+    media = post.get('media') or {}
+    if isinstance(media, dict):
+        reddit_video = media.get('reddit_video') or {}
+        if isinstance(reddit_video, dict):
+            fallback = reddit_video.get('fallback_url')
+            if fallback and isinstance(fallback, str) and fallback.startswith('http'):
+                return fallback.replace('&amp;', '&')
+
+    secure_media = post.get('secure_media') or {}
+    if isinstance(secure_media, dict):
+        reddit_video = secure_media.get('reddit_video') or {}
+        if isinstance(reddit_video, dict):
+            fallback = reddit_video.get('fallback_url')
+            if fallback and isinstance(fallback, str) and fallback.startswith('http'):
+                return fallback.replace('&amp;', '&')
+
+    return None
+
+
 def classify_reddit_content(
     predictor: MultimodalSarcasmPredictor,
     subreddit: str,
@@ -209,7 +229,8 @@ def classify_reddit_content(
 
         post_media_dir = os.path.join(download_root, subreddit, post_id)
         if is_video_url(url):
-            video_path = download_media(url, post_media_dir)
+            video_url = _get_direct_reddit_video_url(post) or url
+            video_path = download_media(video_url, post_media_dir)
         elif is_image_url(url):
             image_path = download_media(url, post_media_dir)
 

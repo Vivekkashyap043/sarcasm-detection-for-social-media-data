@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 import pandas as pd
-from typing import Dict, Tuple, List
+from typing import Any, Dict, Tuple, List
 try:
     import lime
     import lime.lime_text
@@ -22,6 +22,7 @@ except Exception:
     shap = None
     _SHAP_AVAILABLE = False
 import json
+import re
 try:
     from .utils import setup_logging
 except ImportError:
@@ -475,42 +476,130 @@ class SarcasmExplainer:
         logger.info(f"Summary saved to {summary_file}")
 
 
-def simple_explain_prediction(text: str, is_sarcastic: int) -> str:
-    """
-    Generate simple, human-readable explanation for why a prediction is sarcastic
-    This is useful for end users
-    """
-    
-    sarcasm_indicators = {
-        'way': 'Obvious contradiction patterns detected',
-        'sure': 'Overly polite/certain language often indicates sarcasm',
-        'yeah': 'Dismissive agreement pattern',
-        'right': 'Sarcastic affirmation detected',
-        'great': 'Praise word often used sarcastically',
-        'love': 'Exaggerated positive sentiment',
-        'perfect': 'Over-the-top positive language',
-        'obviously': 'Obvious exaggeration indicator'
+def _extract_text_signals(text: str) -> Dict[str, Any]:
+    safe_text = (text or "").strip()
+    lowered = safe_text.lower()
+    tokens = re.findall(r"[\w']+", lowered, flags=re.UNICODE)
+
+    sarcasm_phrases = [
+        "yeah right", "as if", "sure", "totally", "obviously", "what a", "thanks a lot", "/s", "lol", "lmao"
+    ]
+    positive_words = {
+        "great", "amazing", "perfect", "wonderful", "excellent", "love", "awesome", "brilliant", "fantastic"
     }
-    
-    words_lower = text.lower().split()
-    found_indicators = [word for word in words_lower if word in sarcasm_indicators]
-    
-    if is_sarcastic:
-        explanation = "This statement is SARCASTIC because:\n"
-        
-        if found_indicators:
-            explanation += f"1. Contains sarcasm indicators: {', '.join(set(found_indicators))}\n"
+    negative_words = {
+        "bad", "terrible", "awful", "worst", "hate", "stupid", "idiot", "disaster", "horrible", "weak"
+    }
+    hyperbole_words = {
+        "always", "never", "literally", "absolutely", "completely", "totally", "everyone", "nobody"
+    }
+
+    detected_phrases = [phrase for phrase in sarcasm_phrases if phrase in lowered]
+    pos_hits = [word for word in tokens if word in positive_words]
+    neg_hits = [word for word in tokens if word in negative_words]
+    hyperbole_hits = [word for word in tokens if word in hyperbole_words]
+
+    exclamations = safe_text.count("!")
+    questions = safe_text.count("?")
+    all_caps_tokens = [token for token in re.findall(r"\b[A-Z]{2,}\b", safe_text) if len(token) > 1]
+
+    signals: List[str] = []
+    if detected_phrases:
+        signals.append(f"sarcasm markers detected: {', '.join(sorted(set(detected_phrases)))}")
+    if pos_hits and neg_hits:
+        signals.append("mixed positive and negative wording suggests contrast in meaning")
+    if hyperbole_hits:
+        signals.append(f"exaggeration words found: {', '.join(sorted(set(hyperbole_hits)))}")
+    if exclamations >= 2 or questions >= 2:
+        signals.append("strong punctuation pattern indicates emphatic tone")
+    if all_caps_tokens:
+        signals.append(f"all-caps emphasis found: {', '.join(sorted(set(all_caps_tokens))[:4])}")
+    if len(tokens) > 60:
+        signals.append("long contextual text provides broader discourse cues")
+
+    if not signals:
+        if len(tokens) <= 5:
+            signals.append("short literal text with limited sarcasm markers")
         else:
-            explanation += "1. The statement contains contradictory or exaggerated language patterns\n"
-        
-        explanation += "2. The tone appears to convey opposite meaning from literal words\n"
-        explanation += "3. Context suggests ironic or mocking intention\n"
-        
+            signals.append("language appears mostly literal with weak irony markers")
+
+    return {
+        "signals": signals,
+        "token_count": len(tokens),
+        "detected_phrases": detected_phrases,
+        "positive_hits": sorted(set(pos_hits)),
+        "negative_hits": sorted(set(neg_hits)),
+        "hyperbole_hits": sorted(set(hyperbole_hits)),
+    }
+
+
+def build_content_aware_explanation(
+    text: str,
+    prediction_label: int,
+    confidence: float,
+    probabilities: Dict[str, float],
+    modalities_used: Dict[str, bool],
+    modality_contributions: Dict[str, float],
+) -> Dict[str, Any]:
+    text_analysis = _extract_text_signals(text)
+
+    modality_names = {
+        "text": "text",
+        "video": "video context",
+        "image": "image context",
+        "audio": "audio tone",
+    }
+
+    used_modalities = [
+        modality_names[key]
+        for key in ["text", "video", "image", "audio"]
+        if modalities_used.get(key, False)
+    ]
+    if not used_modalities:
+        used_modalities = ["available signals"]
+
+    sorted_contrib = sorted(modality_contributions.items(), key=lambda item: item[1], reverse=True)
+    top_modality_key, top_modality_score = sorted_contrib[0] if sorted_contrib else ("text", 0.0)
+    top_modality_name = modality_names.get(top_modality_key, top_modality_key)
+
+    if prediction_label == 1:
+        meaning = "The model interprets likely irony: wording and context do not align literally."
+        verdict = "SARCASTIC"
     else:
-        explanation = "This statement appears to be GENUINE (not sarcastic) because:\n"
-        explanation += "1. Language is direct and straightforward\n"
-        explanation += "2. No contradictory patterns detected\n"
-        explanation += "3. Tone matches the literal meaning of the words\n"
-    
-    return explanation
+        meaning = "The model interprets the statement as mostly literal and context-aligned."
+        verdict = "NOT SARCASTIC"
+
+    summary = (
+        f"Predicted {verdict} with {confidence:.2%} confidence, driven mainly by {top_modality_name} "
+        f"(impact {top_modality_score:.2f}) and text/context signals in this specific sample."
+    )
+
+    context_signals: List[str] = []
+    if modalities_used.get("video"):
+        context_signals.append("video frames were used as contextual evidence")
+    if modalities_used.get("image"):
+        context_signals.append("image cues were used as contextual evidence")
+    if modalities_used.get("audio"):
+        context_signals.append("audio/prosody features were included")
+    if not context_signals:
+        context_signals.append("prediction relied mostly on text without external media context")
+
+    return {
+        "method": "CONTENT_AWARE",
+        "summary": summary,
+        "meaning_interpretation": meaning,
+        "text_signals": text_analysis["signals"],
+        "context_signals": context_signals,
+        "modalities_considered": used_modalities,
+        "modality_contributions": modality_contributions,
+        "class_probabilities": {
+            "not_sarcastic": float(probabilities.get("not_sarcastic", 0.0)),
+            "sarcastic": float(probabilities.get("sarcastic", 0.0)),
+        },
+    }
+
+
+def simple_explain_prediction(text: str, is_sarcastic: int) -> str:
+    fallback = "SARCASTIC" if is_sarcastic else "NOT SARCASTIC"
+    return f"Prediction: {fallback}. Use CONTENT_AWARE explanation fields for sample-specific reasoning."
 
