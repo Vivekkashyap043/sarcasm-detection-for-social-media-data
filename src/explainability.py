@@ -482,7 +482,8 @@ def _extract_text_signals(text: str) -> Dict[str, Any]:
     tokens = re.findall(r"[\w']+", lowered, flags=re.UNICODE)
 
     sarcasm_phrases = [
-        "yeah right", "as if", "sure", "totally", "obviously", "what a", "thanks a lot", "/s", "lol", "lmao"
+        "yeah right", "as if", "sure", "totally", "obviously", "what a", "thanks a lot", "/s", "lol", "lmao",
+        "great job", "nice one", "of course", "right...", "wow"
     ]
     positive_words = {
         "great", "amazing", "perfect", "wonderful", "excellent", "love", "awesome", "brilliant", "fantastic"
@@ -503,11 +504,16 @@ def _extract_text_signals(text: str) -> Dict[str, Any]:
     questions = safe_text.count("?")
     all_caps_tokens = [token for token in re.findall(r"\b[A-Z]{2,}\b", safe_text) if len(token) > 1]
 
+    contrast_connectors = {"but", "yet", "though", "however", "while", "despite", "although"}
+    connector_hits = [word for word in tokens if word in contrast_connectors]
+
     signals: List[str] = []
     if detected_phrases:
         signals.append(f"sarcasm markers detected: {', '.join(sorted(set(detected_phrases)))}")
     if pos_hits and neg_hits:
         signals.append("mixed positive and negative wording suggests contrast in meaning")
+    if connector_hits and (pos_hits or neg_hits):
+        signals.append("contrastive discourse connectors suggest a possible tone shift")
     if hyperbole_hits:
         signals.append(f"exaggeration words found: {', '.join(sorted(set(hyperbole_hits)))}")
     if exclamations >= 2 or questions >= 2:
@@ -530,7 +536,48 @@ def _extract_text_signals(text: str) -> Dict[str, Any]:
         "positive_hits": sorted(set(pos_hits)),
         "negative_hits": sorted(set(neg_hits)),
         "hyperbole_hits": sorted(set(hyperbole_hits)),
+        "contrast_hits": sorted(set(connector_hits)),
+        "exclamations": exclamations,
+        "questions": questions,
     }
+
+
+def _get_evidence_snippets(text: str, max_items: int = 3) -> List[str]:
+    safe_text = (text or "").strip()
+    if not safe_text:
+        return []
+
+    candidates = re.split(r"(?<=[.!?])\s+|\n+", safe_text)
+    cleaned = [chunk.strip() for chunk in candidates if chunk and chunk.strip()]
+
+    # Prioritize snippets likely to carry intent/tone.
+    tone_keywords = {
+        "yeah", "right", "sure", "obviously", "totally", "never", "always", "wow", "?", "!", "but", "however"
+    }
+
+    def score_snippet(snippet: str) -> int:
+        lowered = snippet.lower()
+        score = 0
+        for kw in tone_keywords:
+            if kw in lowered:
+                score += 1
+        score += min(snippet.count("!"), 2)
+        score += min(snippet.count("?"), 2)
+        if len(snippet.split()) > 8:
+            score += 1
+        return score
+
+    ranked = sorted(cleaned, key=score_snippet, reverse=True)
+    top = ranked[:max_items] if ranked else cleaned[:max_items]
+
+    snippets = []
+    for snippet in top:
+        if len(snippet) > 180:
+            snippets.append(snippet[:177] + "...")
+        else:
+            snippets.append(snippet)
+
+    return snippets
 
 
 def build_content_aware_explanation(
@@ -542,6 +589,7 @@ def build_content_aware_explanation(
     modality_contributions: Dict[str, float],
 ) -> Dict[str, Any]:
     text_analysis = _extract_text_signals(text)
+    evidence_snippets = _get_evidence_snippets(text)
 
     modality_names = {
         "text": "text",
@@ -562,16 +610,42 @@ def build_content_aware_explanation(
     top_modality_key, top_modality_score = sorted_contrib[0] if sorted_contrib else ("text", 0.0)
     top_modality_name = modality_names.get(top_modality_key, top_modality_key)
 
+    pos_count = len(text_analysis.get("positive_hits", []))
+    neg_count = len(text_analysis.get("negative_hits", []))
+    marker_count = len(text_analysis.get("detected_phrases", []))
+    contrast_count = len(text_analysis.get("contrast_hits", []))
+    hyperbole_count = len(text_analysis.get("hyperbole_hits", []))
+
+    rationale_steps: List[str] = []
+    if marker_count > 0:
+        rationale_steps.append(
+            f"Explicit sarcasm-style markers appear in text ({', '.join(text_analysis.get('detected_phrases', [])[:4])})."
+        )
+    if pos_count > 0 and neg_count > 0:
+        rationale_steps.append("Positive and negative lexical cues co-occur, indicating possible semantic incongruity.")
+    if contrast_count > 0:
+        rationale_steps.append("Contrast connectors indicate a shift between clauses that can support ironic framing.")
+    if hyperbole_count > 0:
+        rationale_steps.append("Hyperbolic terms suggest exaggeration rather than purely literal reporting.")
+    if text_analysis.get("questions", 0) >= 1:
+        rationale_steps.append("Interrogative phrasing may function as rhetorical stance rather than information-seeking.")
+    if text_analysis.get("exclamations", 0) >= 1:
+        rationale_steps.append("Exclamation emphasis indicates heightened affective tone.")
+
     if prediction_label == 1:
-        meaning = "The model interprets likely irony: wording and context do not align literally."
+        meaning = "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent."
         verdict = "SARCASTIC"
+        if not rationale_steps:
+            rationale_steps.append("Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm.")
     else:
         meaning = "The model interprets the statement as mostly literal and context-aligned."
         verdict = "NOT SARCASTIC"
+        if not rationale_steps:
+            rationale_steps.append("Few strong irony markers are present; wording is interpreted as primarily literal.")
 
     summary = (
         f"Predicted {verdict} with {confidence:.2%} confidence, driven mainly by {top_modality_name} "
-        f"(impact {top_modality_score:.2f}) and text/context signals in this specific sample."
+        f"(impact {top_modality_score:.2f}) with evidence taken from this specific content."
     )
 
     context_signals: List[str] = []
@@ -587,6 +661,8 @@ def build_content_aware_explanation(
     return {
         "method": "CONTENT_AWARE",
         "summary": summary,
+        "why_how": rationale_steps,
+        "evidence_snippets": evidence_snippets,
         "meaning_interpretation": meaning,
         "text_signals": text_analysis["signals"],
         "context_signals": context_signals,

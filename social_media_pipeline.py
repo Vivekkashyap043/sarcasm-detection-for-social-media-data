@@ -254,9 +254,10 @@ def classify_reddit_content(
             sarcasm_result = {
                 "prediction": prediction.get("label_name", "NOT SARCASTIC"),
                 "confidence": float(prediction.get("confidence", 0.0)),
-                "probabilities": prediction.get("probabilities", {}),
-                "explanation": prediction.get("detailed_explanation", {})
+                "probabilities": prediction.get("probabilities", {})
             }
+            if sarcasm_result["prediction"] == "SARCASTIC":
+                sarcasm_result["explanation"] = prediction.get("detailed_explanation", {})
 
             results.append({
                 "type": "post",
@@ -298,9 +299,10 @@ def classify_reddit_content(
             sarcasm_result = {
                 "prediction": prediction.get("label_name", "NOT SARCASTIC"),
                 "confidence": float(prediction.get("confidence", 0.0)),
-                "probabilities": prediction.get("probabilities", {}),
-                "explanation": prediction.get("detailed_explanation", {})
+                "probabilities": prediction.get("probabilities", {})
             }
+            if sarcasm_result["prediction"] == "SARCASTIC":
+                sarcasm_result["explanation"] = prediction.get("detailed_explanation", {})
 
             results.append({
                 "type": "comment",

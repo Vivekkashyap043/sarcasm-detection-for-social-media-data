@@ -1,217 +1,56 @@
 [
   {
     "type": "post",
-    "subreddit": "u_swissonrye420",
-    "title": "Trump says the US killed all the potential candidates the US wanted to takeover Iran",
-    "text": "Trump says the US killed all the potential candidates the US wanted to takeover Iran",
+    "subreddit": "WhatTrumpHasDone",
+    "title": "Vance says ‘there’s no way’ Trump will let US get into multiyear conflict",
+    "text": "Vance says ‘there’s no way’ Trump will let US get into multiyear conflict\nVice President JD Vance dismissed the notion that the U.S. operation in Iran would lead to a prolonged conflict on Monday, saying there is no way Trump would let Washington end up in a multiyear conflict.\n\n“What’s so different about this is that the president has clearly defined what he wants to accomplish,” Vance told conservative talk show host Jesse Waters on Fox News in his first interview since the U.S. strikes on Iran over the weekend.\n\n“There’s just no way that Donald Trump is going to allow this country to get into a multi-year conflict with no clear end in sight, and no clear objective,” he continued.\n\n“What is different about President Trump, and it’s frankly different from Republicans and Democrats of the past, is that he’s not going to let his country go to war unless there’s a clearly defined objective. He’s defined that objective as Iran cannot have a nuclear weapon and has to commit long term to never try to rebuild their nuclear capability. It’s pretty clear. It’s pretty simple, and I think that means that we’re not going to get into the problems that we’ve had with Iraq and Afghanistan,” he said.\n\nVance has long been perceived as an anti-interventionalist, along with many of Trump’s “America First” allies. Trump himself campaigned on keeping the U.S. out of prolonged military conflicts abroad.\n\nTrump and members of his administration have laid out what they say are the president’s “objectives” in striking Iran, including destroying the country’s missiles and Navy, ensuring that Iranian proxies can no longer pose a threat to U.S. interests and the Middle East, and preventing Tehran from rebuilding its nuclear weapons program.\n\n“An Iranian regime armed with long-range missiles and nuclear weapons would be an intolerable threat to the Middle East, but also to the American people,” Trump said at the White House on Monday.",
     "score": 1,
-    "url": "https://i.redd.it/j55kjsi8qjmg1.jpeg",
+    "url": "https://thehill.com/homenews/administration/5764073-trump-vance-iran-conflict/",
     "media": {
       "video": null,
-      "image": "results\\downloads\\u_swissonrye420\\1rijfmh\\j55kjsi8qjmg1.jpeg"
+      "image": "results\\downloads\\WhatTrumpHasDone\\1rjf8vj\\MTpUlqdsPzSnRqMKaB0HOGVtXmtT0mdLFgA29QhWN0Q.jpeg"
     },
     "sarcasm_result": {
       "prediction": "NOT SARCASTIC",
-      "confidence": 0.6066322326660156,
+      "confidence": 0.6530558466911316,
       "probabilities": {
-        "not_sarcastic": 0.6066322326660156,
-        "sarcastic": 0.39336779713630676
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted NOT SARCASTIC with 60.66% confidence, driven mainly by text (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets the statement as mostly literal and context-aligned.",
-        "text_signals": [
-          "all-caps emphasis found: US"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 1.0,
-          "video": 0.0,
-          "image": 0.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.6066322326660156,
-          "sarcastic": 0.39336779713630676
-        }
+        "not_sarcastic": 0.6530558466911316,
+        "sarcastic": 0.3469441831111908
       }
     },
-    "keyword": "US vs Iran",
-    "post_id": "1rijfmh",
-    "permalink": "/r/u_swissonrye420/comments/1rijfmh/trump_says_the_us_killed_all_the_potential/"
+    "keyword": "JD Vance",
+    "post_id": "1rjf8vj",
+    "permalink": "/r/WhatTrumpHasDone/comments/1rjf8vj/vance_says_theres_no_way_trump_will_let_us_get/"
   },
   {
     "type": "post",
-    "subreddit": "WorldWar3Community",
-    "title": "What if China invades Taiwan",
-    "text": "What if China invades Taiwan\nWith US forces diverted to Iran for war for the incoming months we would need to launch more forces to defend Taiwan for their microchips\n\nAlso my crush from high skew moved to Dubai and she hasn't responded to my messages and hasn't posted anything to her socials since Feb 28th so that's concerning",
-    "score": 0,
-    "url": "https://www.reddit.com/r/WorldWar3Community/comments/1rijfmf/what_if_china_invades_taiwan/",
+    "subreddit": "whowatchesthewatchmen",
+    "title": "Fuck me sideways. I agree with Marge, yet again.",
+    "text": "Fuck me sideways. I agree with Marge, yet again.",
+    "score": 11,
+    "url": "https://i.redd.it/bf5pmfk07rmg1.jpeg",
     "media": {
       "video": null,
-      "image": null
-    },
-    "sarcasm_result": {
-      "prediction": "NOT SARCASTIC",
-      "confidence": 0.5630175471305847,
-      "probabilities": {
-        "not_sarcastic": 0.5630175471305847,
-        "sarcastic": 0.4369824528694153
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted NOT SARCASTIC with 56.30% confidence, driven mainly by text (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets the statement as mostly literal and context-aligned.",
-        "text_signals": [
-          "all-caps emphasis found: US"
-        ],
-        "context_signals": [
-          "prediction relied mostly on text without external media context"
-        ],
-        "modalities_considered": [
-          "text"
-        ],
-        "modality_contributions": {
-          "text": 1.0,
-          "video": 0.0,
-          "image": 0.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.5630175471305847,
-          "sarcastic": 0.4369824528694153
-        }
-      }
-    },
-    "keyword": "US vs Iran",
-    "post_id": "1rijfmf",
-    "permalink": "/r/WorldWar3Community/comments/1rijfmf/what_if_china_invades_taiwan/"
-  },
-  {
-    "type": "post",
-    "subreddit": "NewsWhatever",
-    "title": "Head of Iran's Soccer Federation Doubts Country Will Play in 2026 World Cup Due to US-Israeli strikes",
-    "text": "Head of Iran's Soccer Federation Doubts Country Will Play in 2026 World Cup Due to US-Israeli strikes",
-    "score": 1,
-    "url": "https://www.breitbart.com/sports/2026/03/01/head-of-irans-soccer-federation-doubts-country-will-play-in-2026-world-cup-due-to-us-israeli-strikes/",
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\NewsWhatever\\1rijfb0\\TRKE0_BFGXcVNufNA6lc0D3AJSa_fYwSs2TncEVHUo4.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "NOT SARCASTIC",
-      "confidence": 0.5128210783004761,
-      "probabilities": {
-        "not_sarcastic": 0.5128210783004761,
-        "sarcastic": 0.4871789216995239
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted NOT SARCASTIC with 51.28% confidence, driven mainly by text (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets the statement as mostly literal and context-aligned.",
-        "text_signals": [
-          "all-caps emphasis found: US"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 1.0,
-          "video": 0.0,
-          "image": 0.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.5128210783004761,
-          "sarcastic": 0.4871789216995239
-        }
-      }
-    },
-    "keyword": "US vs Iran",
-    "post_id": "1rijfb0",
-    "permalink": "/r/NewsWhatever/comments/1rijfb0/head_of_irans_soccer_federation_doubts_country/"
-  },
-  {
-    "type": "post",
-    "subreddit": "netmarks",
-    "title": "Iran-US War: Iran Raises Red Flag Of Revenge In Qom After Khamenei’s Death | WION",
-    "text": "Iran-US War: Iran Raises Red Flag Of Revenge In Qom After Khamenei’s Death | WION",
-    "score": 1,
-    "url": "https://www.youtube.com/watch?v=esywPYZq6CE",
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\netmarks\\1rijdv2\\0zSAuIDYveIrg4UczMhutgahxdy97GNIhzm5J0MvC1Q.jpeg"
+      "image": "results\\downloads\\whowatchesthewatchmen\\1rjf45u\\bf5pmfk07rmg1.jpeg"
     },
     "sarcasm_result": {
       "prediction": "SARCASTIC",
-      "confidence": 0.572901725769043,
+      "confidence": 0.5859048962593079,
       "probabilities": {
-        "not_sarcastic": 0.42709827423095703,
-        "sarcastic": 0.572901725769043
+        "not_sarcastic": 0.41409510374069214,
+        "sarcastic": 0.5859048962593079
       },
       "explanation": {
         "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 57.29% confidence, driven mainly by image context (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets likely irony: wording and context do not align literally.",
-        "text_signals": [
-          "all-caps emphasis found: US, WION"
+        "summary": "Predicted SARCASTIC with 58.59% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Contrast connectors indicate a shift between clauses that can support ironic framing."
         ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
+        "evidence_snippets": [
+          "Fuck me sideways.",
+          "I agree with Marge, yet again."
         ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 0.0,
-          "video": 0.0,
-          "image": 1.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.42709827423095703,
-          "sarcastic": 0.572901725769043
-        }
-      }
-    },
-    "keyword": "US vs Iran",
-    "post_id": "1rijdv2",
-    "permalink": "/r/netmarks/comments/1rijdv2/iranus_war_iran_raises_red_flag_of_revenge_in_qom/"
-  },
-  {
-    "type": "post",
-    "subreddit": "MapPorn",
-    "title": "Seljuq Iran: A return to borders it hadn't seen since the fall of the Sassanians nearly 400 years prior (Sahab Series of Historical Maps, 1970)",
-    "text": "Seljuq Iran: A return to borders it hadn't seen since the fall of the Sassanians nearly 400 years prior (Sahab Series of Historical Maps, 1970)",
-    "score": 1,
-    "url": "https://i.redd.it/kpz8qn889kmg1.jpeg",
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\MapPorn\\1rijdop\\kpz8qn889kmg1.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "NOT SARCASTIC",
-      "confidence": 0.5284731388092041,
-      "probabilities": {
-        "not_sarcastic": 0.5284731388092041,
-        "sarcastic": 0.4715269207954407
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted NOT SARCASTIC with 52.85% confidence, driven mainly by image context (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets the statement as mostly literal and context-aligned.",
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
         "text_signals": [
           "language appears mostly literal with weak irony markers"
         ],
@@ -229,41 +68,625 @@
           "audio": 0.0
         },
         "class_probabilities": {
-          "not_sarcastic": 0.5284731388092041,
-          "sarcastic": 0.4715269207954407
+          "not_sarcastic": 0.41409510374069214,
+          "sarcastic": 0.5859048962593079
         }
       }
     },
-    "keyword": "US vs Iran",
-    "post_id": "1rijdop",
-    "permalink": "/r/MapPorn/comments/1rijdop/seljuq_iran_a_return_to_borders_it_hadnt_seen/"
+    "keyword": "JD Vance",
+    "post_id": "1rjf45u",
+    "permalink": "/r/whowatchesthewatchmen/comments/1rjf45u/fuck_me_sideways_i_agree_with_marge_yet_again/"
   },
   {
-    "type": "comment",
-    "subreddit": "MapPorn",
-    "post_title": "Seljuq Iran: A return to borders it hadn't seen since the fall of the Sassanians nearly 400 years prior (Sahab Series of Historical Maps, 1970)",
-    "comment_id": "o86enxk",
-    "text": "Full zoomable map found here: [Historical map of Iran under the Seljuqs / published by Sahab Geographic &amp; Drafting Ins. - American Geographical Society Library Digital Map Collection - UWM Libraries Digital Collections](https://collections.lib.uwm.edu/digital/collection/agdm/id/18567/)\n\nAlso of note this was the first time since the Sassanians that a unified Iranian plateau had a ruler that used the Persian title *Shahanshah* King of Kings. The Buyids prior had also used the title, but the Iranian plateau was never fully unified under them.\n\nMuch of the ideological character of the Seljuk Empire was derived from the earlier Samanid and Ghaznavid kingdoms, which had in turn emerged from the Perso-Islamic imperial system of the Abbasid caliphate.[^(\\[71\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTEHerzigStewart20143-73) This Perso-Islamic tradition was based on pre-Islamic Iranian ideas of kingship molded into an Islamic framework. Little of the public symbolism used by the Seljuks was Turkic, namely the [tughra](https://en.wikipedia.org/wiki/Tughra).[^(\\[72\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTEPeacock2015134-74) The populace of the Seljuk Empire would have considered this Perso-Islamic tradition more significant than that of steppe customs.[^(\\[73\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTEPeacock2015135-75)\n\nHighly [Persianized](https://en.wikipedia.org/wiki/Persianized)[^(\\[75\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-77) in culture[^(\\[76\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-78) and language,[^(\\[77\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-79) the Seljuks also played an important role in the development of the [Turko-Persian tradition](https://en.wikipedia.org/wiki/Turko-Persian_tradition),[^(\\[78\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-80) even exporting Persian culture to Anatolia.[^(\\[b\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-82)[^(\\[80\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTEGrousset1988574-83)[^(\\[81\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-84) Under the Seljuks, Persian was also used for books lecturing about politics in the [mirrors for princes](https://en.wikipedia.org/wiki/Mirrors_for_princes) genre, such as the prominent [*Siyasatnama*](https://en.wikipedia.org/wiki/Siyasatnama) (Book of Politics) composed by [Nizam al-Mulk](https://en.wikipedia.org/wiki/Nizam_al-Mulk).[^(\\[82\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTEGreen201916-85) During this period, these types of books consciously made use of Islamic and Iranian traditions, such as an ideal government based on the Islamic prophet Muhammad and his successors, or the [Sasanian](https://en.wikipedia.org/wiki/Sasanian_Empire) [King of Kings](https://en.wikipedia.org/wiki/King_of_Kings) [Khosrow I](https://en.wikipedia.org/wiki/Khosrow_I) (r. 531–579).[^(\\[71\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTEHerzigStewart20143-73)\n\nIn most of their coins, the Seljuk sultans used the Sasanian title of [*shahanshah*](https://en.wikipedia.org/wiki/Shahanshah) (King of Kings), and even used the old Buyid title of \"Shahanshah of Islam.\"[^(\\[84\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTETor2012149-87) The title of [*malik*](https://en.wikipedia.org/wiki/Malik) was used by lesser princes of the Seljuk family.[^(\\[85\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTESpuler2014349-88) Like the caliphate, the Seljuks relied on a refined Persian bureaucracy.[^(\\[86\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTEEl-Azhari2021286-89) The settlement of Turkic tribes in the northwestern peripheral parts of the empire, for the strategic military purpose of fending off invasions from neighboring states, led to the progressive [Turkicization](https://en.wikipedia.org/wiki/Turkicization) of those areas.[^(\\[87\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-90) According to the 12th-century poet [Nizami Aruzi](https://en.wikipedia.org/wiki/Nizami_Aruzi), all of the Seljuk sultans had a liking for poetry, which is also demonstrated by the large compilation of Persian verses written under their patronage. This had already started under Tughril, who was praised in Arabic and Persian by poets such as [Fakhruddin As'ad Gurgani](https://en.wikipedia.org/wiki/Fakhruddin_As%27ad_Gurgani) and Bakharzi, albeit he could not understand the verses. The last Seljuk sultan Tughril III was well known for his Persian poetry.[^(\\[88\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTEPeacock2015185-91) The [*Saljuq-nama*](https://en.wikipedia.org/wiki/Saljuq-nama) of [Zahir al-Din Nishapuri](https://en.wikipedia.org/wiki/Zahir_al-Din_Nishapuri), which was most likely dedicated to Tughril III, indicates that the Seljuk family now used Persian to communicate, and even were taught about the achievements of their forefathers in that language.[^(\\[89\\])](https://en.wikipedia.org/wiki/Seljuk_Empire#cite_note-FOOTNOTEPeacock2015182-92)\n\n",
-    "score": 1,
+    "type": "post",
+    "subreddit": "conspiracy",
+    "title": "Dont know where to write this but wanna share my theory",
+    "text": "Dont know where to write this but wanna share my theory\nWe know both sides are funded by the same people so in a way they know what the outcome will be they never leave it up to chance. They gave us such a poor campaign from the democratic side with kamala because they knew that they needed trump in power because he was the only one that would actually have the balls/ be compromised enough to do their bidding. \n\nThen we get the puzzle piece that was charlie kirk. Charlie kirk from a young age was identified as a “trump style character” someone people viewed as a leader, someone worth following. They rallied behind charlie gave him all this money to start turning point USA to be able to control the narrative. Charlie does it, helps the youth turn more conservative, gives Trump the playbook on how to get elected by swaying young people. Trump wins and begins doing their bidding. Ie, the calculated military operations weve been seeing. then comes same charlie kirk and convinces trump that we dont have to pursue war with iran. He dies on the hill, convinces trump to stop the war back in the summer. Shortly after he questions things that happened, says hes abandoning the jewish cause and is killed right after. Almost like hes eliminated for not following the script. \n\nThey know trump cant be reelected so they choose someone eloquent and smart, a jd vance hoping that hell be magnetic enough for everyone to fall in love with him like they did with trump. Only that everyone can perceive it so no one falls for it. \n\nTo replace him, only shot now is Newsom. Newsom will come out with a “bring back normal life” attitude. Both sides are fatigued bc of extremism so hell run a campaign thats more in the middle. That agrees with the agreeable republicans and agrees with the agreeable democrats and isolate both extremes kind of what RFK did. Rfk’s only sin during his campaign was the fact that the establishment was never gonna allow him to be at the helm. So no matter how well he performed during campaign season, he was never gonna be a viable option. Now, if you think of rfk as “inside of the operation” one could argue that rfk played that part so beautifully well that when the time came he would Self Eliminate and make us rally against trump. Which, we did.Many only voted trump because of rfk. Rfk made them trust trump by extension. \n\n The end result is usually war of some kind for the banks no matter what side gets chosen the rest of the things they push dont matter much its a pendulum. We’ll either see a push for more liberal ways of life or a push towards more conservative life but in both camps, war is a nonnegotiable which is what banks and military complex has been profiting off for hundreds of years. Newsom or vance, if they want a war we will get a war is essentially my Opinion. \n\nAnd if I reeally wanna theorize, i would even add to it that epstein files conveniently coming out in this moment may have been intentionally done as a warning to trump that if he didnt agree to the war asap that those files of his would \\_actually\\_ be exposed. Now that He agreed to the war, i bet well stop Seeing the overwhelming amount of coverage on epstein files. Im curious to see how it unfolds",
+    "score": 5,
+    "url": "https://www.reddit.com/r/conspiracy/comments/1rje9re/dont_know_where_to_write_this_but_wanna_share_my/",
     "media": {
       "video": null,
-      "image": "results\\downloads\\MapPorn\\1rijdop\\kpz8qn889kmg1.jpeg"
+      "image": null
     },
     "sarcasm_result": {
       "prediction": "NOT SARCASTIC",
-      "confidence": 0.5501158833503723,
+      "confidence": 0.5343395471572876,
       "probabilities": {
-        "not_sarcastic": 0.5501158833503723,
-        "sarcastic": 0.4498841464519501
+        "not_sarcastic": 0.5343395471572876,
+        "sarcastic": 0.46566042304039
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rje9re",
+    "permalink": "/r/conspiracy/comments/1rje9re/dont_know_where_to_write_this_but_wanna_share_my/"
+  },
+  {
+    "type": "comment",
+    "subreddit": "conspiracy",
+    "post_title": "Dont know where to write this but wanna share my theory",
+    "comment_id": "o8ckhri",
+    "text": "###[Meta] Sticky Comment\n\n[Rule 2](https://www.reddit.com/r/conspiracy/wiki/faq#wiki_2_-_address_the_argument.3B_not_the_user.2C_the_mods.2C_or_the_sub.) ***does not apply*** when replying to this stickied comment.  \n\n[Rule 2](https://www.reddit.com/r/conspiracy/wiki/faq#wiki_2_-_address_the_argument.3B_not_the_user.2C_the_mods.2C_or_the_sub.) ***does apply*** throughout the rest of this thread.\n\n*What this means*: Please keep any \"meta\" discussion directed at specific users, mods, or /r/conspiracy in general in this comment chain ***only.***\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/conspiracy) if you have any questions or concerns.*",
+    "score": 1,
+    "media": {
+      "video": null,
+      "image": null
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.5004643797874451,
+      "probabilities": {
+        "not_sarcastic": 0.5004643797874451,
+        "sarcastic": 0.49953556060791016
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rje9re"
+  },
+  {
+    "type": "comment",
+    "subreddit": "conspiracy",
+    "post_title": "Dont know where to write this but wanna share my theory",
+    "comment_id": "o8cllmn",
+    "text": "A little wordy, but a damn interesting take, with regard to Trump/Israel/Kirk/Files/Iran. 🔥🏆",
+    "score": 2,
+    "media": {
+      "video": null,
+      "image": null
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.5417343974113464,
+      "probabilities": {
+        "not_sarcastic": 0.45826563239097595,
+        "sarcastic": 0.5417343974113464
       },
       "explanation": {
         "method": "CONTENT_AWARE",
-        "summary": "Predicted NOT SARCASTIC with 55.01% confidence, driven mainly by image context (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets the statement as mostly literal and context-aligned.",
+        "summary": "Predicted SARCASTIC with 54.17% confidence, driven mainly by text (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Contrast connectors indicate a shift between clauses that can support ironic framing."
+        ],
+        "evidence_snippets": [
+          "A little wordy, but a damn interesting take, with regard to Trump/Israel/Kirk/Files/Iran.",
+          "🔥🏆"
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "language appears mostly literal with weak irony markers"
+        ],
+        "context_signals": [
+          "prediction relied mostly on text without external media context"
+        ],
+        "modalities_considered": [
+          "text"
+        ],
+        "modality_contributions": {
+          "text": 1.0,
+          "video": 0.0,
+          "image": 0.0,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.45826563239097595,
+          "sarcastic": 0.5417343974113464
+        }
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rje9re"
+  },
+  {
+    "type": "post",
+    "subreddit": "werejustangry_",
+    "title": "Land of the Free?",
+    "text": "Land of the Free?\nThe land of the free? Bullshit. It’s only free if you’re a white conservative male. You know what gets on my nerves the most is MAGA. Make America Great Again. If America was great, then innocent people wouldn’t get deported and people would have homes and families to be with. If America was great then healthcare would be for all and those unborn fetuses that your wonderful president is expecting for dinner wouldn’t matter because you are the reason why CHILDREN have to carry a child. So no, your stupid red hat is not making America great again. It is making it worse for everyone but yourselves but that’s all you care about right. Wait no, I'm sorry you care about things that are none of your business so what if my mom has a girlfriend and my dad is gay that doesn’t involve you. It doesn’t hurt you in any way and you’re too stupid that you can’t keep your nose in your own business. America would be great if our president didn’t start unnecessary unconstitutional wars that are none of our business because we are over here while they are over there. All America has done recently is harm its citizens and everyone around it. We have enough land here and we don’t need a president that threatens to take over a country because he didn’t get a Nobel peace prize. But according to JD Vance he’s the most peaceful president obviously we have different definitions of peace. Peace would be if the problems here were solved and yes there will always be problems but the unnecessary ones that are happening now should be the only thing this country should be worrying about, not things that we shouldn’t even be involved with to begin with. So land of the free you say? More like the land of the white supremacists.",
+    "score": 1,
+    "url": "https://www.reddit.com/r/werejustangry_/comments/1rjdz04/land_of_the_free/",
+    "media": {
+      "video": null,
+      "image": null
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.5212321877479553,
+      "probabilities": {
+        "not_sarcastic": 0.5212321877479553,
+        "sarcastic": 0.47876784205436707
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjdz04",
+    "permalink": "/r/werejustangry_/comments/1rjdz04/land_of_the_free/"
+  },
+  {
+    "type": "post",
+    "subreddit": "u_Old_Management3429",
+    "title": "🇺🇸 Vice President JD Vance: \"I empathize with Americans who are exhausted after 25 years of foreign entanglements in the Middle East. I understand the concern, but the difference is that back then we had dumb presidents\"",
+    "text": "🇺🇸 Vice President JD Vance: \"I empathize with Americans who are exhausted after 25 years of foreign entanglements in the Middle East. I understand the concern, but the difference is that back then we had dumb presidents\"",
+    "score": 1,
+    "url": "https://v.redd.it/tdy2c69tfhlg1",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\u_Old_Management3429\\1rjdv4y\\Zzhjem1yYXRmaGxnMZOGcgKC1YQ3Y-QqnUYVijoxF49bzuwojodorqzdC3oJ.png"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.6135028004646301,
+      "probabilities": {
+        "not_sarcastic": 0.3864971399307251,
+        "sarcastic": 0.6135028004646301
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 61.35% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Contrast connectors indicate a shift between clauses that can support ironic framing."
+        ],
+        "evidence_snippets": [
+          "I understand the concern, but the difference is that back then we had dumb presidents\"",
+          "🇺🇸 Vice President JD Vance: \"I empathize with Americans who are exhausted after 25 years of foreign entanglements in the Middle East."
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "all-caps emphasis found: JD"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.0,
+          "video": 0.0,
+          "image": 1.0,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.3864971399307251,
+          "sarcastic": 0.6135028004646301
+        }
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjdv4y",
+    "permalink": "/r/u_Old_Management3429/comments/1rjdv4y/vice_president_jd_vance_i_empathize_with/"
+  },
+  {
+    "type": "post",
+    "subreddit": "aussie",
+    "title": "One critical word is missing in Australia’s push to criminalise pro-Palestine phrases",
+    "text": "One critical word is missing in Australia’s push to criminalise pro-Palestine phrases\n## One critical word is missing in Australia’s push to criminalise pro-Palestine phrases\n\n_One critical word is missing in Australia’s push to criminalise pro-Palestine phrases\nQueensland and New South Wales are looking to criminalise phrases like ‘globalise the intifada’, with words themselves set to be thrown on the bonfire of free expression._\n\n`Michael Bradley`\n\nScenario A: A young, white, prominent Australian stands on Sydney’s Town Hall steps during a rally protesting the Israeli president’s visit and shouts, “From Gadigal to Gaza, globalise the intifada!”\n\nScenario B: A black-clad man stands outside a synagogue. As the Jewish congregation emerge, he snarls a single word at each of them in turn: “Intifada.”\n\nContext, one wearily incants, is everything.\n\nIt was 2020 when I [warned](https://www.crikey.com.au/2020/01/15/nazi-flag-victoria-law/) against the moral panic that was driving the outlawing of Nazi and terrorist symbols at the time, arguing that it wouldn’t make the slightest difference to Australia’s drift towards authoritarianism. No lessons were learned, and now it’s the turn of words themselves to be thrown on the bonfire of free expression.\n\nQueensland has gone first: its [Fighting Antisemitism and Keeping Guns out of the Hands of Terrorists and Criminals Amendment Bill 2026](https://www.legislation.qld.gov.au/view/html/bill.first/bill-2026-003) has been introduced into parliament and is likely to pass soon. The bill adds “expressions” to the existing criminal law, allowing the minister to ban symbols by regulation.\n\nQueensland Premier David Crisafulli has promised that the expressions “from the river to the sea” and “globalise the intifada” will be proscribed — that is, criminalised — and presently insists that these will be the only phrases included. As to why these two, he [said](https://www.abc.net.au/news/2026-02-19/queensland-antisemitism-phrase-ban/106358470) the Jewish community had “obviously been through a lot, and we’ve deliberately put those two phrases because they are the ones that we are dealing with”.\n\nI don’t know what that means either. The Queensland Jewish Board of Deputies explained that these words are “slogans” that promote “Jew-hatred or violence”. End of argument.\n\nNew South Wales is set to follow suit. The Labor-controlled parliamentary committee on law and safety [reported](https://www.abc.net.au/news/2026-01-30/nsw-inquiry-slogan-inciting-hatred-ban-globalise-the-intifada/106284716) in January a recommendation that the phrase “globalise the intifada” and “any substantially similar wording” be proscribed.\n\nThe committee considered the contested and complex meaning of the term “intifada”, an Arabic word usually translated as “shaking off”. It concluded that though the term “has not been used exclusively, or in isolation, as an incitement to violence”, in the wake of the attack on Bondi and rising antisemitism more broadly, the threat has changed: “proscribing public chants to ‘globalise the intifada’ would recognise the violent history associated with this phrase, and the way in which such calls may impact the perceived safety of the Jewish community in NSW”.\n\nAgain, context — in this case, the stripping thereof. The report makes no mention of the contexts in which the First and Second Palestinian Intifadas arose. It treats them as eruptions of violence directed towards Jews, jumping logically straight to the fear that the implication of intifada naturally evokes in Jews who attach their identities to Israel.\n\nAbsent also is the difference between the words and symbols of Nazism, on the one hand, and anti-Israel or anti-Zionist activism on the other. The first are directed at Jews _per_ Jews, explicitly demanding their extinction. The second may imply or involve harm to Jews _per_ the state of Israel, on the argument that that state persists on the land of another people whose right to existence Zionism itself implicitly denies.\n\nComplex, right? Imagine trying to unpick what’s going on inside the head of any particular individual chanting the soon-to-be-criminal words, or their true impact on any reasonable Jewish person hearing them.\n\nThis was demonstrated recently in the ACT Police’s ham-fisted attempt to enforce that territory’s criminal law that prohibits swastikas from public display. They raided the Dissent Café and Bar on February 4, seizing seven posters depicting Donald Trump, JD Vance, Elon Musk, Benjamin Netanyahu and Vladimir Putin dressed in Nazi-like uniforms, which, unsurprisingly, included some swastikas.\n\nIt took the cops a week to realise they’d Orwelled themselves comprehensively, quietly admitting they wouldn’t be laying any charges and would be returning the posters.\n\nContext. Fifty actual Nazis parade outside NSW Parliament House with a banner reading “Ban the Jewish lobby”, and the police do nothing. But put some self-evidently political commentary in the form of contemporary fascists in Nazi gear up in your café window and prepare to be raided.\n\nThis mess is predictable and inevitable, and the expression-banning laws will only make it much worse. I do pity the poor cops trying to enforce them — they’ll be in the same world of pain as the UK police are. Consider this internal policing guidance from Manchester in 2024, quoted in the NSW committee’s report:\n\n&gt; “’From the river to the sea, Palestine will be free’ could potentially constitute an offence, but our advice at this point is that we would not likely pursue a prosecution. The claim is that ‘the river to the sea’ is effective\\[ly\\] the area that constitutes Israel, therefore it is implicit in the chant that Israel would be destroyed by the creation of the Palestinian state. This is not explicitly clear from the chant, though …”\n\nIn a rational world, it would be recognised that logic can be applied equally to the terms “Zionism”, “Greater Israel” or even “Israel”, since each implicitly rules out a Palestinian state. Nobody’s calling for those words to be outlawed, of course.\n\nWe are in a minefield of language, and the one critical word our guides do not know is this one: context.\n\nScenario B: A black-clad man stands outside a synagogue. As the Jewish congregation emerge, he snarls a single word at each of them in turn: “Intifada.”\n\nContext, one wearily incants, is everything.",
+    "score": 19,
+    "url": "https://www.crikey.com.au/2026/03/03/criminalising-pro-palestine-phrases-context-qld-nsw-israel/",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\aussie\\1rjddsc\\FhspTQ_HdeTrx-iWW0ElS99vXRSluR2P-kMDnDFffPw.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6449962258338928,
+      "probabilities": {
+        "not_sarcastic": 0.6449962258338928,
+        "sarcastic": 0.3550037443637848
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjddsc",
+    "permalink": "/r/aussie/comments/1rjddsc/one_critical_word_is_missing_in_australias_push/"
+  },
+  {
+    "type": "comment",
+    "subreddit": "aussie",
+    "post_title": "One critical word is missing in Australia’s push to criminalise pro-Palestine phrases",
+    "comment_id": "o8ch7vg",
+    "text": "We have given $1.7bn to a group who wear symbols that are banned in Australia. The hypocrisy is insane. ",
+    "score": 11,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\aussie\\1rjddsc\\FhspTQ_HdeTrx-iWW0ElS99vXRSluR2P-kMDnDFffPw.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.7485908269882202,
+      "probabilities": {
+        "not_sarcastic": 0.7485908269882202,
+        "sarcastic": 0.251409113407135
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjddsc"
+  },
+  {
+    "type": "comment",
+    "subreddit": "aussie",
+    "post_title": "One critical word is missing in Australia’s push to criminalise pro-Palestine phrases",
+    "comment_id": "o8chfor",
+    "text": "It's just a lousy direction for us to be moving in, suppressing speech and protest. Breathlessly insisting nuance and context doesn't matter is especially jarring.\n\nAnd what's the point, at the end of the day? They're not going to stop the protests like this; if anything, it'll have an inverse effect.",
+    "score": 19,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\aussie\\1rjddsc\\FhspTQ_HdeTrx-iWW0ElS99vXRSluR2P-kMDnDFffPw.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6486793160438538,
+      "probabilities": {
+        "not_sarcastic": 0.6486793160438538,
+        "sarcastic": 0.35132068395614624
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjddsc"
+  },
+  {
+    "type": "comment",
+    "subreddit": "aussie",
+    "post_title": "One critical word is missing in Australia’s push to criminalise pro-Palestine phrases",
+    "comment_id": "o8ciksn",
+    "text": "\"Israel has a right to defend itself\" is a sentence with a particularly violent history.",
+    "score": 14,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\aussie\\1rjddsc\\FhspTQ_HdeTrx-iWW0ElS99vXRSluR2P-kMDnDFffPw.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6952098608016968,
+      "probabilities": {
+        "not_sarcastic": 0.6952098608016968,
+        "sarcastic": 0.30479007959365845
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjddsc"
+  },
+  {
+    "type": "comment",
+    "subreddit": "aussie",
+    "post_title": "One critical word is missing in Australia’s push to criminalise pro-Palestine phrases",
+    "comment_id": "o8chyxs",
+    "text": "Can some one explain to me why this country has a long history of racism that gets brushed off but when it comes to the jews its crossing the lines and we need to make and change laws? And for what i know the free palenstine movement isn't be anti semetic its anti Zionist.",
+    "score": 10,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\aussie\\1rjddsc\\FhspTQ_HdeTrx-iWW0ElS99vXRSluR2P-kMDnDFffPw.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6841996312141418,
+      "probabilities": {
+        "not_sarcastic": 0.6841996312141418,
+        "sarcastic": 0.315800279378891
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjddsc"
+  },
+  {
+    "type": "comment",
+    "subreddit": "aussie",
+    "post_title": "One critical word is missing in Australia’s push to criminalise pro-Palestine phrases",
+    "comment_id": "o8cp64k",
+    "text": "&gt; Scenario B: A black-clad man stands outside a synagogue. As the Jewish congregation emerge, he snarls a single word at each of them in turn: “Intifada.”\n\nI don't think the word matters.  This seems like harassment and intimidation even if the words are \"chocolate cake\".\n\n\n\n",
+    "score": 1,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\aussie\\1rjddsc\\FhspTQ_HdeTrx-iWW0ElS99vXRSluR2P-kMDnDFffPw.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6623824238777161,
+      "probabilities": {
+        "not_sarcastic": 0.6623824238777161,
+        "sarcastic": 0.33761754631996155
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjddsc"
+  },
+  {
+    "type": "post",
+    "subreddit": "nottheonion",
+    "title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "text": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "score": 4923,
+    "url": "https://littlethings.com/entertainment/jd-vance-coolest-vp-claim",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\nottheonion\\1rjcxep\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6625778079032898,
+      "probabilities": {
+        "not_sarcastic": 0.6625778079032898,
+        "sarcastic": 0.3374221920967102
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcxep",
+    "permalink": "/r/nottheonion/comments/1rjcxep/jd_vance_calls_himself_the_coolest_vice_president/"
+  },
+  {
+    "type": "comment",
+    "subreddit": "nottheonion",
+    "post_title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "comment_id": "o8cbq9a",
+    "text": "Any man who says \"I am the coolest\" is not cool",
+    "score": 2878,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\nottheonion\\1rjcxep\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6631704568862915,
+      "probabilities": {
+        "not_sarcastic": 0.6631704568862915,
+        "sarcastic": 0.3368295729160309
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcxep"
+  },
+  {
+    "type": "comment",
+    "subreddit": "nottheonion",
+    "post_title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "comment_id": "o8cbkiu",
+    "text": "I don't know man, Cheney shot a man.",
+    "score": 1004,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\nottheonion\\1rjcxep\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6818953156471252,
+      "probabilities": {
+        "not_sarcastic": 0.6818953156471252,
+        "sarcastic": 0.31810471415519714
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcxep"
+  },
+  {
+    "type": "comment",
+    "subreddit": "nottheonion",
+    "post_title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "comment_id": "o8cc0bh",
+    "text": "First rule of being cool is, you don't brag about being cool.",
+    "score": 370,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\nottheonion\\1rjcxep\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.5081034302711487,
+      "probabilities": {
+        "not_sarcastic": 0.5081034302711487,
+        "sarcastic": 0.49189653992652893
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcxep"
+  },
+  {
+    "type": "comment",
+    "subreddit": "nottheonion",
+    "post_title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "comment_id": "o8cbrdc",
+    "text": "BAHAHAHAAHHAHA.\n\nThat's just so fucking sad.  ",
+    "score": 160,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\nottheonion\\1rjcxep\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.770352303981781,
+      "probabilities": {
+        "not_sarcastic": 0.770352303981781,
+        "sarcastic": 0.2296476811170578
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcxep"
+  },
+  {
+    "type": "comment",
+    "subreddit": "nottheonion",
+    "post_title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "comment_id": "o8cb6e2",
+    "text": "Sure couch fucker. People who fuck couches are totally cool",
+    "score": 725,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\nottheonion\\1rjcxep\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.5744033455848694,
+      "probabilities": {
+        "not_sarcastic": 0.5744033455848694,
+        "sarcastic": 0.425596684217453
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcxep"
+  },
+  {
+    "type": "post",
+    "subreddit": "cringe",
+    "title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "text": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "score": 326,
+    "url": "https://littlethings.com/entertainment/jd-vance-coolest-vp-claim",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\cringe\\1rjcn4g\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6625778079032898,
+      "probabilities": {
+        "not_sarcastic": 0.6625778079032898,
+        "sarcastic": 0.3374221920967102
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcn4g",
+    "permalink": "/r/cringe/comments/1rjcn4g/jd_vance_calls_himself_the_coolest_vice_president/"
+  },
+  {
+    "type": "comment",
+    "subreddit": "cringe",
+    "post_title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "comment_id": "o8c8uc1",
+    "text": "Calling *yourself* cool has to be about the most deeply uncool thing possible.",
+    "score": 195,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\cringe\\1rjcn4g\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6436864733695984,
+      "probabilities": {
+        "not_sarcastic": 0.6436864733695984,
+        "sarcastic": 0.356313556432724
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcn4g"
+  },
+  {
+    "type": "comment",
+    "subreddit": "cringe",
+    "post_title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "comment_id": "o8cabw7",
+    "text": "\" please clap\"",
+    "score": 41,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\cringe\\1rjcn4g\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.7354307174682617,
+      "probabilities": {
+        "not_sarcastic": 0.7354307174682617,
+        "sarcastic": 0.26456931233406067
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcn4g"
+  },
+  {
+    "type": "comment",
+    "subreddit": "cringe",
+    "post_title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "comment_id": "o8c9yoc",
+    "text": "And the irony is he’s a fucking dork.",
+    "score": 70,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\cringe\\1rjcn4g\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.695878803730011,
+      "probabilities": {
+        "not_sarcastic": 0.695878803730011,
+        "sarcastic": 0.3041212260723114
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcn4g"
+  },
+  {
+    "type": "comment",
+    "subreddit": "cringe",
+    "post_title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "comment_id": "o8cage1",
+    "text": "The White House couches disagree I’m sure",
+    "score": 20,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\cringe\\1rjcn4g\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.5610106587409973,
+      "probabilities": {
+        "not_sarcastic": 0.5610106587409973,
+        "sarcastic": 0.4389893710613251
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcn4g"
+  },
+  {
+    "type": "comment",
+    "subreddit": "cringe",
+    "post_title": "JD Vance Calls Himself the Coolest Vice President in History &amp; Brags About It",
+    "comment_id": "o8c9d8t",
+    "text": "The guyliner begs to differ.",
+    "score": 7,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\cringe\\1rjcn4g\\0ud4d_ttl56ladxRICow3y0FkjqHhni8e6le9FwCTnU.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6232132315635681,
+      "probabilities": {
+        "not_sarcastic": 0.6232132315635681,
+        "sarcastic": 0.3767867386341095
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcn4g"
+  },
+  {
+    "type": "post",
+    "subreddit": "agedlikemilk",
+    "title": "Good thing they're so careful with WWIII. \"Have you said 'thank you' once?\"",
+    "text": "Good thing they're so careful with WWIII. \"Have you said 'thank you' once?\"\nZelenskyy got shouted at in the Oval Office for \"gambling with WWIII\". Apparently starting an unprovoked war with Iran that's slowly drawing in more and more regional players and US/allied assets doesn't count.\n\nAlso for Vance specficially: AF Post is now reporting: \"[VP JD Vance expressed reservations about a strike on Iran and said he personally opposed it, but said that if Trump were to strike Iran, he should pursue a large-scale attack rather than a small, limited one.](https://x.com/AFpost/status/2028645389126250652)\"",
+    "score": 175,
+    "url": "https://i.redd.it/n5lq3t39mqmg1.png",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\agedlikemilk\\1rjcl2n\\n5lq3t39mqmg1.png"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.7739052772521973,
+      "probabilities": {
+        "not_sarcastic": 0.22609466314315796,
+        "sarcastic": 0.7739052772521973
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 77.39% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Explicit sarcasm-style markers appear in text (/s).",
+          "Contrast connectors indicate a shift between clauses that can support ironic framing.",
+          "Interrogative phrasing may function as rhetorical stance rather than information-seeking."
+        ],
+        "evidence_snippets": [
+          "\"Have you said 'thank you' once?\"",
+          "Also for Vance specficially: AF Post is now reporting: \"[VP JD Vance expressed reservations about a strike on Iran and said he personally opposed it, but said that if Trump were...",
+          "Zelenskyy got shouted at in the Oval Office for \"gambling with WWIII\"."
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
         "text_signals": [
           "sarcasm markers detected: /s",
-          "exaggeration words found: never",
-          "all-caps emphasis found: III, UWM",
+          "all-caps emphasis found: AF, JD, US, VP",
           "long contextual text provides broader discourse cues"
         ],
         "context_signals": [
@@ -280,87 +703,49 @@
           "audio": 0.0
         },
         "class_probabilities": {
-          "not_sarcastic": 0.5501158833503723,
-          "sarcastic": 0.4498841464519501
+          "not_sarcastic": 0.22609466314315796,
+          "sarcastic": 0.7739052772521973
         }
       }
     },
-    "keyword": "US vs Iran",
-    "post_id": "1rijdop"
+    "keyword": "JD Vance",
+    "post_id": "1rjcl2n",
+    "permalink": "/r/agedlikemilk/comments/1rjcl2n/good_thing_theyre_so_careful_with_wwiii_have_you/"
   },
   {
-    "type": "post",
-    "subreddit": "redscarepod",
-    "title": "Anyone else going through a crisis of spirituality?",
-    "text": "Anyone else going through a crisis of spirituality?\nI'm not religious. I want to be clear about that.\n\nBut I've been sitting with something today that I can't shake and I think some people here will get it.\n\nThe US is at war with Iran right now. And I think most people engaging with it politically are missing what's actually happening cosmologically.\n\nMani, Persian prophet, 274 AD, executed for it, said the darkness doesn't fight the light. It absorbs it. Wears its face. That's the whole game. His framework isn't really about good versus evil in the simple sense. It's about the fundamental incompatibility between the light and the Babylonian superstructure. You cannot serve both. Detachment from Babylon isn't optional in Mani's cosmology. It's the whole point. That conclusion, interestingly, is shared by actual Christian doctrine. The tradition just forgot it somewhere along the way.\n\nThe people citing Isaiah 45, where God literally calls Cyrus the Persian king his anointed one, the only gentile called messiah in Hebrew scripture, for liberating Jews from Babylon, are bombing his civilizational inheritors. The people invoking David are Goliath. The tradition that started with \"sell your possessions and give to the poor\" is blessing the most powerful military apparatus in human history.\n\nThat's the Manichaean inversion. Captured light.\n\nWahhabist Islam and Iranian authoritarianism weren't organic. They were seeded by the same Babylonian superstructure now bombing them. The hostility we face in the region is a product of Israeli and American geopolitical strategy. We created the conditions for our own enemies and then act surprised at the enmity.\n\nBabylon wages war on Babylon. The head bites the tail. In death they are born.\n\nIsrael as a Golemic state. Built for protection. Animated by existential fear. Bearing the name of its creators. Having become the thing it was built to prevent. The Golem reads the instruction to stop and concludes it means keep walking. It is desecrating its own biblical liberators. Cyrus was Persian. Isaiah said so.\n\nPersia is a holy land. Zoroaster. Mani. Cyrus. The civilizational inheritance that shaped every Abrahamic tradition that followed. Bombing it isn't geopolitics. It's desecration of their liberators.\n\nThe latter half of Revelation started around 80 years ago. Hiroshima and Nagasaki and then the formation of Israel were the threshold. The seals have been opening since. The convergence we're watching now, Gaza, Iran, the Epstein superstructure, the collapse of institutional legitimacy globally, this isn't the beginning. We're deep into it.\n\nAnd when the second coming actually happens, if it does, the people who've been loudest about anticipating it will be the first to refuse it. That's not a controversial theological claim. The tradition has always been most dangerous to the institutions that claim to represent it. The Babylonian superstructure cannot accommodate genuine light. It can only absorb and redirect it. A genuine second coming is fundamentally incompatible with everything the superstructure has built. Of course they'll refuse it. They refused it the first time too.\n\nTrump fits the Antichrist profile more precisely than feels comfortable to say out loud. Not because he's a figure of dark grandeur. The tradition describes something almost embarrassingly mundane. Boastful. Obsessed with winning. Worshipping the god of fortresses, Daniel literally says he'll spend a lot of money on border walls. A man who is god to himself. Surrounded by court prophets now facing child sex charges. Allied with a figure in Israel waging war and making cities desolate. The fatal wound to the head the whole world marveled he survived. It's all there.\n\nThe people who most loudly anticipate the Antichrist are the ones least likely to recognize him. They built a framework requiring dark grandeur. They got a brazen pampered loudmouth from Queens and called him anointed.\n\nThat's the capture completing itself.\n\nCosmological comeuppance is coming. 100 to 200 years out.\n\nCivilizational reckoning doesn't come quick. But it is swift when it arrives.\n\nThe cosmic moral inversion is already happening. The final culmination probably won't look like anyone expects.\n\nIt rarely does.",
+    "type": "comment",
+    "subreddit": "agedlikemilk",
+    "post_title": "Good thing they're so careful with WWIII. \"Have you said 'thank you' once?\"",
+    "comment_id": "o8c80jo",
+    "text": "\nHey, OP! Please reply to this comment to provide context for why this aged poorly so people can see it per rule 3 of the sub. **The comment giving context must be posted in response to this comment for visibility reasons. Nothing on this sub is self-explanatory. Pretend you are explaining this to someone who just woke up from a year-long coma. THIS IS NOT OPTIONAL** Failing to do so **will result in your post being removed.** Now is also a good time to review the rules. If your submission is breaking any of the subreddit rules, it will be removed.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/agedlikemilk) if you have any questions or concerns.*",
     "score": 1,
-    "url": "https://www.reddit.com/r/redscarepod/comments/1rijccx/anyone_else_going_through_a_crisis_of_spirituality/",
     "media": {
       "video": null,
-      "image": null
+      "image": "results\\downloads\\agedlikemilk\\1rjcl2n\\n5lq3t39mqmg1.png"
     },
     "sarcasm_result": {
-      "prediction": "NOT SARCASTIC",
-      "confidence": 0.5738708972930908,
+      "prediction": "SARCASTIC",
+      "confidence": 0.7998135685920715,
       "probabilities": {
-        "not_sarcastic": 0.5738708972930908,
-        "sarcastic": 0.4261290729045868
+        "not_sarcastic": 0.20018644630908966,
+        "sarcastic": 0.7998135685920715
       },
       "explanation": {
         "method": "CONTENT_AWARE",
-        "summary": "Predicted NOT SARCASTIC with 57.39% confidence, driven mainly by text (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets the statement as mostly literal and context-aligned.",
+        "summary": "Predicted SARCASTIC with 79.98% confidence, driven mainly by image context (impact 0.97) with evidence taken from this specific content.",
+        "why_how": [
+          "Interrogative phrasing may function as rhetorical stance rather than information-seeking.",
+          "Exclamation emphasis indicates heightened affective tone."
+        ],
+        "evidence_snippets": [
+          "Please [contact the moderators of this subreddit](/message/compose/?to=/r/agedlikemilk) if you have any questions or concerns.*",
+          "Hey, OP!",
+          "Please reply to this comment to provide context for why this aged poorly so people can see it per rule 3 of the sub."
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
         "text_signals": [
-          "exaggeration words found: always, literally",
-          "all-caps emphasis found: AD, US",
+          "all-caps emphasis found: IS, NOT, OP, OPTIONAL",
           "long contextual text provides broader discourse cues"
-        ],
-        "context_signals": [
-          "prediction relied mostly on text without external media context"
-        ],
-        "modalities_considered": [
-          "text"
-        ],
-        "modality_contributions": {
-          "text": 1.0,
-          "video": 0.0,
-          "image": 0.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.5738708972930908,
-          "sarcastic": 0.4261290729045868
-        }
-      }
-    },
-    "keyword": "US vs Iran",
-    "post_id": "1rijccx",
-    "permalink": "/r/redscarepod/comments/1rijccx/anyone_else_going_through_a_crisis_of_spirituality/"
-  },
-  {
-    "type": "post",
-    "subreddit": "StockMarketIndia",
-    "title": "Defence stocks surging in early trade as Israel-Iran-US War continues on for 3rd day, attack on Iran to continue, BDL, Data Patterns up over 3% each, ParasDefence extends gains, up over 7%",
-    "text": "Defence stocks surging in early trade as Israel-Iran-US War continues on for 3rd day, attack on Iran to continue, BDL, Data Patterns up over 3% each, ParasDefence extends gains, up over 7%",
-    "score": 1,
-    "url": "https://i.redd.it/6yt637xs8kmg1.jpeg",
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\StockMarketIndia\\1rijbip\\6yt637xs8kmg1.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "NOT SARCASTIC",
-      "confidence": 0.5632235407829285,
-      "probabilities": {
-        "not_sarcastic": 0.5632235407829285,
-        "sarcastic": 0.43677645921707153
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted NOT SARCASTIC with 56.32% confidence, driven mainly by image context (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets the statement as mostly literal and context-aligned.",
-        "text_signals": [
-          "all-caps emphasis found: BDL, US"
         ],
         "context_signals": [
           "image cues were used as contextual evidence"
@@ -370,43 +755,107 @@
           "image context"
         ],
         "modality_contributions": {
-          "text": 0.0,
+          "text": 0.032618259452639714,
           "video": 0.0,
-          "image": 1.0,
+          "image": 0.9673817405473603,
           "audio": 0.0
         },
         "class_probabilities": {
-          "not_sarcastic": 0.5632235407829285,
-          "sarcastic": 0.43677645921707153
+          "not_sarcastic": 0.20018644630908966,
+          "sarcastic": 0.7998135685920715
         }
       }
     },
-    "keyword": "US vs Iran",
-    "post_id": "1rijbip",
-    "permalink": "/r/StockMarketIndia/comments/1rijbip/defence_stocks_surging_in_early_trade_as/"
+    "keyword": "JD Vance",
+    "post_id": "1rjcl2n"
   },
   {
-    "type": "post",
-    "subreddit": "ShytoshiWorld",
-    "title": "Bitcoin vs Iran Tensions - What Happens Next?",
-    "text": "Bitcoin vs Iran Tensions - What Happens Next?",
-    "score": 1,
-    "url": "https://youtu.be/kA7vZ_0JJ4o?si=HnmppibZ0T-zlKzZ",
+    "type": "comment",
+    "subreddit": "agedlikemilk",
+    "post_title": "Good thing they're so careful with WWIII. \"Have you said 'thank you' once?\"",
+    "comment_id": "o8cdcht",
+    "text": "Literally thousands of these factual aged like milk posts all over the net... Yet, 70+ million are STILL on board with this crazy train. 🤦‍♂️",
+    "score": 5,
     "media": {
       "video": null,
-      "image": "results\\downloads\\ShytoshiWorld\\1rija8y\\oPTAPU0KyVKji0mmiKs1NjKMRAUbCY5e4hHoZZMSCAw.jpeg"
+      "image": "results\\downloads\\agedlikemilk\\1rjcl2n\\n5lq3t39mqmg1.png"
     },
     "sarcasm_result": {
-      "prediction": "NOT SARCASTIC",
-      "confidence": 0.5880236625671387,
+      "prediction": "SARCASTIC",
+      "confidence": 0.7958014011383057,
       "probabilities": {
-        "not_sarcastic": 0.5880236625671387,
-        "sarcastic": 0.41197633743286133
+        "not_sarcastic": 0.20419852435588837,
+        "sarcastic": 0.7958014011383057
       },
       "explanation": {
         "method": "CONTENT_AWARE",
-        "summary": "Predicted NOT SARCASTIC with 58.80% confidence, driven mainly by text (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets the statement as mostly literal and context-aligned.",
+        "summary": "Predicted SARCASTIC with 79.58% confidence, driven mainly by image context (impact 0.98) with evidence taken from this specific content.",
+        "why_how": [
+          "Contrast connectors indicate a shift between clauses that can support ironic framing.",
+          "Hyperbolic terms suggest exaggeration rather than purely literal reporting."
+        ],
+        "evidence_snippets": [
+          "Literally thousands of these factual aged like milk posts all over the net...",
+          "Yet, 70+ million are STILL on board with this crazy train.",
+          "🤦‍♂️"
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "exaggeration words found: literally",
+          "all-caps emphasis found: STILL"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.01878516902809947,
+          "video": 0.0,
+          "image": 0.9812148309719005,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.20419852435588837,
+          "sarcastic": 0.7958014011383057
+        }
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjcl2n"
+  },
+  {
+    "type": "comment",
+    "subreddit": "agedlikemilk",
+    "post_title": "Good thing they're so careful with WWIII. \"Have you said 'thank you' once?\"",
+    "comment_id": "o8cdid6",
+    "text": "# [11 new photos of Trump in Epstein's files](https://community.toolzo.online/index.php?threads/888sfds.47/)\n\nI can't comprehend how this pedophile became president of America. Every day more evidence emerges that he is the most foolish president in American history, without a doubt.",
+    "score": 3,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\agedlikemilk\\1rjcl2n\\n5lq3t39mqmg1.png"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.7224787473678589,
+      "probabilities": {
+        "not_sarcastic": 0.2775212526321411,
+        "sarcastic": 0.7224787473678589
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 72.25% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Interrogative phrasing may function as rhetorical stance rather than information-seeking."
+        ],
+        "evidence_snippets": [
+          "# [11 new photos of Trump in Epstein's files](https://community.toolzo.online/index.php?threads/888sfds.47/)",
+          "I can't comprehend how this pedophile became president of America.",
+          "Every day more evidence emerges that he is the most foolish president in American history, without a doubt."
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
         "text_signals": [
           "language appears mostly literal with weak irony markers"
         ],
@@ -418,142 +867,50 @@
           "image context"
         ],
         "modality_contributions": {
-          "text": 1.0,
+          "text": 0.0,
           "video": 0.0,
-          "image": 0.0,
+          "image": 1.0,
           "audio": 0.0
         },
         "class_probabilities": {
-          "not_sarcastic": 0.5880236625671387,
-          "sarcastic": 0.41197633743286133
+          "not_sarcastic": 0.2775212526321411,
+          "sarcastic": 0.7224787473678589
         }
       }
     },
-    "keyword": "US vs Iran",
-    "post_id": "1rija8y",
-    "permalink": "/r/ShytoshiWorld/comments/1rija8y/bitcoin_vs_iran_tensions_what_happens_next/"
-  },
-  {
-    "type": "post",
-    "subreddit": "ukpolitics",
-    "title": "What reaction is there to Starmer's allowing the US bases in the UK for air strikes in Iran?",
-    "text": "What reaction is there to Starmer's allowing the US bases in the UK for air strikes in Iran?\nI'm curious given how Trump tried to strongarm the UK with tariffs, and also insulted your war dead and injured from our last escapades in Afghanistan and Iraq how Brits react.\nFarage will doubtless applaud given how far he is up Trump's backside, but what about the other parties?\n\nI would think Starmer gets totally ripped over this from those who served?",
-    "score": 0,
-    "url": "https://www.reddit.com/r/ukpolitics/comments/1rij9yh/what_reaction_is_there_to_starmers_allowing_the/",
-    "media": {
-      "video": null,
-      "image": null
-    },
-    "sarcasm_result": {
-      "prediction": "NOT SARCASTIC",
-      "confidence": 0.5721346735954285,
-      "probabilities": {
-        "not_sarcastic": 0.5721346735954285,
-        "sarcastic": 0.4278653562068939
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted NOT SARCASTIC with 57.21% confidence, driven mainly by text (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets the statement as mostly literal and context-aligned.",
-        "text_signals": [
-          "sarcasm markers detected: totally, what a",
-          "exaggeration words found: totally",
-          "strong punctuation pattern indicates emphatic tone",
-          "all-caps emphasis found: UK, US",
-          "long contextual text provides broader discourse cues"
-        ],
-        "context_signals": [
-          "prediction relied mostly on text without external media context"
-        ],
-        "modalities_considered": [
-          "text"
-        ],
-        "modality_contributions": {
-          "text": 1.0,
-          "video": 0.0,
-          "image": 0.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.5721346735954285,
-          "sarcastic": 0.4278653562068939
-        }
-      }
-    },
-    "keyword": "US vs Iran",
-    "post_id": "1rij9yh",
-    "permalink": "/r/ukpolitics/comments/1rij9yh/what_reaction_is_there_to_starmers_allowing_the/"
+    "keyword": "JD Vance",
+    "post_id": "1rjcl2n"
   },
   {
     "type": "comment",
-    "subreddit": "ukpolitics",
-    "post_title": "What reaction is there to Starmer's allowing the US bases in the UK for air strikes in Iran?",
-    "comment_id": "o86eiga",
-    "text": "Its not , or not meant to be, about Trump but about helping allies in the region defend against somewhat random missile attacks from Iran as far as im aware including allowing the US to target middile sites. But rightly or wrongly people will presume the worst motivation by Starmer anyway.",
-    "score": 1,
+    "subreddit": "agedlikemilk",
+    "post_title": "Good thing they're so careful with WWIII. \"Have you said 'thank you' once?\"",
+    "comment_id": "o8cg6nc",
+    "text": "Trump doesn’t have the cards",
+    "score": 2,
     "media": {
       "video": null,
-      "image": null
+      "image": "results\\downloads\\agedlikemilk\\1rjcl2n\\n5lq3t39mqmg1.png"
     },
     "sarcasm_result": {
       "prediction": "SARCASTIC",
-      "confidence": 0.5182161331176758,
+      "confidence": 0.7580157518386841,
       "probabilities": {
-        "not_sarcastic": 0.48178380727767944,
-        "sarcastic": 0.5182161331176758
+        "not_sarcastic": 0.24198424816131592,
+        "sarcastic": 0.7580157518386841
       },
       "explanation": {
         "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 51.82% confidence, driven mainly by text (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets likely irony: wording and context do not align literally.",
+        "summary": "Predicted SARCASTIC with 75.80% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
+        ],
+        "evidence_snippets": [
+          "Trump doesn’t have the cards"
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
         "text_signals": [
-          "all-caps emphasis found: US"
-        ],
-        "context_signals": [
-          "prediction relied mostly on text without external media context"
-        ],
-        "modalities_considered": [
-          "text"
-        ],
-        "modality_contributions": {
-          "text": 1.0,
-          "video": 0.0,
-          "image": 0.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.48178380727767944,
-          "sarcastic": 0.5182161331176758
-        }
-      }
-    },
-    "keyword": "US vs Iran",
-    "post_id": "1rij9yh"
-  },
-  {
-    "type": "post",
-    "subreddit": "lonerbox",
-    "title": "The PA supports Arab states against Iran",
-    "text": "The PA supports Arab states against Iran",
-    "score": 1,
-    "url": "https://i.redd.it/0nbnzfd68kmg1.png",
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\lonerbox\\1rij8zy\\0nbnzfd68kmg1.png"
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.5158445239067078,
-      "probabilities": {
-        "not_sarcastic": 0.48415544629096985,
-        "sarcastic": 0.5158445239067078
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 51.58% confidence, driven mainly by image context (impact 1.00) and text/context signals in this specific sample.",
-        "meaning_interpretation": "The model interprets likely irony: wording and context do not align literally.",
-        "text_signals": [
-          "all-caps emphasis found: PA"
+          "language appears mostly literal with weak irony markers"
         ],
         "context_signals": [
           "image cues were used as contextual evidence"
@@ -569,13 +926,177 @@
           "audio": 0.0
         },
         "class_probabilities": {
-          "not_sarcastic": 0.48415544629096985,
-          "sarcastic": 0.5158445239067078
+          "not_sarcastic": 0.24198424816131592,
+          "sarcastic": 0.7580157518386841
         }
       }
     },
-    "keyword": "US vs Iran",
-    "post_id": "1rij8zy",
-    "permalink": "/r/lonerbox/comments/1rij8zy/the_pa_supports_arab_states_against_iran/"
+    "keyword": "JD Vance",
+    "post_id": "1rjcl2n"
+  },
+  {
+    "type": "post",
+    "subreddit": "NewsSource",
+    "title": "JD Vance 'has no idea' on Iran goal as VP makes chilling Iraq War comparison",
+    "text": "JD Vance 'has no idea' on Iran goal as VP makes chilling Iraq War comparison",
+    "score": 38,
+    "url": "https://www.irishstar.com/news/world-news/jd-vance-has-no-idea-36806486",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\NewsSource\\1rjck20\\xoIfnOKaAJqqHcPLHzOf2Z__5U17c64cjJaFByjWGWE.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.8037269115447998,
+      "probabilities": {
+        "not_sarcastic": 0.1962730437517166,
+        "sarcastic": 0.8037269115447998
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 80.37% confidence, driven mainly by image context (impact 0.82) with evidence taken from this specific content.",
+        "why_how": [
+          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
+        ],
+        "evidence_snippets": [
+          "JD Vance 'has no idea' on Iran goal as VP makes chilling Iraq War comparison"
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "all-caps emphasis found: JD, VP"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.18423730837239008,
+          "video": 0.0,
+          "image": 0.81576269162761,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.1962730437517166,
+          "sarcastic": 0.8037269115447998
+        }
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjck20",
+    "permalink": "/r/NewsSource/comments/1rjck20/jd_vance_has_no_idea_on_iran_goal_as_vp_makes/"
+  },
+  {
+    "type": "comment",
+    "subreddit": "NewsSource",
+    "post_title": "JD Vance 'has no idea' on Iran goal as VP makes chilling Iraq War comparison",
+    "comment_id": "o8ch8z9",
+    "text": "The goal is the same. Replace the leadership \n\nWhich is the same mistake. \n\nOnly this time you think it can be done without troops on the ground. For now at least.",
+    "score": 3,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\NewsSource\\1rjck20\\xoIfnOKaAJqqHcPLHzOf2Z__5U17c64cjJaFByjWGWE.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.762341320514679,
+      "probabilities": {
+        "not_sarcastic": 0.23765869438648224,
+        "sarcastic": 0.762341320514679
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 76.23% confidence, driven mainly by image context (impact 0.96) with evidence taken from this specific content.",
+        "why_how": [
+          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
+        ],
+        "evidence_snippets": [
+          "Only this time you think it can be done without troops on the ground.",
+          "The goal is the same.",
+          "Replace the leadership"
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "language appears mostly literal with weak irony markers"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.04250843603502234,
+          "video": 0.0,
+          "image": 0.9574915639649777,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.23765869438648224,
+          "sarcastic": 0.762341320514679
+        }
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjck20"
+  },
+  {
+    "type": "comment",
+    "subreddit": "NewsSource",
+    "post_title": "JD Vance 'has no idea' on Iran goal as VP makes chilling Iraq War comparison",
+    "comment_id": "o8cbkjg",
+    "text": "So #2 in the USA is clueless. Nothing shocks us anymore!!! Complete dipshits running this country.",
+    "score": 2,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\NewsSource\\1rjck20\\xoIfnOKaAJqqHcPLHzOf2Z__5U17c64cjJaFByjWGWE.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.7699006199836731,
+      "probabilities": {
+        "not_sarcastic": 0.23009935021400452,
+        "sarcastic": 0.7699006199836731
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 76.99% confidence, driven mainly by image context (impact 0.93) with evidence taken from this specific content.",
+        "why_how": [
+          "Exclamation emphasis indicates heightened affective tone."
+        ],
+        "evidence_snippets": [
+          "Nothing shocks us anymore!!!",
+          "So #2 in the USA is clueless.",
+          "Complete dipshits running this country."
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "strong punctuation pattern indicates emphatic tone",
+          "all-caps emphasis found: USA"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.07108539075736837,
+          "video": 0.0,
+          "image": 0.9289146092426316,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.23009935021400452,
+          "sarcastic": 0.7699006199836731
+        }
+      }
+    },
+    "keyword": "JD Vance",
+    "post_id": "1rjck20"
   }
 ]
