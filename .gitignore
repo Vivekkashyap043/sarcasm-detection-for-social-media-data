@@ -1,6 +1,5 @@
 # Ignore downloaded media and model weights
 downloads/
-models/
 
 # Python artifacts
 __pycache__/
