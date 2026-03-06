@@ -347,6 +347,31 @@ def run_pipeline(
 ):
     predictor = MultimodalSarcasmPredictor(config_path=config_path, model_path=model_path)
 
+    all_results = collect_pipeline_results(
+        predictor=predictor,
+        keywords=keywords,
+        subreddits=subreddits,
+        posts_per_subreddit=posts_per_subreddit,
+        comments_per_post=comments_per_post,
+        output_path=output_path,
+        detailed_explanations=detailed_explanations,
+    )
+
+    save_results(all_results, output_path)
+    logger.info(f"Completed. Saved {len(all_results)} predictions to {output_path}")
+
+
+def collect_pipeline_results(
+    predictor: MultimodalSarcasmPredictor,
+    keywords: Optional[List[str]],
+    subreddits: List[str],
+    posts_per_subreddit: int,
+    comments_per_post: int,
+    output_path: str,
+    detailed_explanations: bool,
+) -> List[Dict[str, Any]]:
+    """Collect Reddit classification results and return them without forcing file writes."""
+
     all_results: List[Dict[str, Any]] = []
     download_root = os.path.join(Path(output_path).parent, 'downloads')
 
@@ -385,8 +410,7 @@ def run_pipeline(
             )
             all_results.extend(sub_results)
 
-    save_results(all_results, output_path)
-    logger.info(f"Completed. Saved {len(all_results)} predictions to {output_path}")
+    return all_results
 
 
 def parse_args() -> argparse.Namespace:

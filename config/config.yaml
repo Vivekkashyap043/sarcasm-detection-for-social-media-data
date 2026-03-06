@@ -7,7 +7,7 @@ data:
   metadata_filename: "metadata.xlsx"
   train_ratio: 0.7               # Used only when use_full_data_for_training=false
   test_ratio: 0.3                # Used only when use_full_data_for_training=false
-  use_full_data_for_training: true  # True => train on 100% labeled data
+  use_full_data_for_training: false  # True => train on 100% labeled data
   random_seed: 42
 
 # Video / Image Configuration
@@ -51,6 +51,7 @@ training:
   learning_rate: 1e-3
   num_epochs: 10
   validation_fraction: 0.2
+  track_test_each_epoch: true
   validation_mode_for_full_data: "overlap"   # overlap | split
   optimizer: "adam"
   loss_function: "cross_entropy"

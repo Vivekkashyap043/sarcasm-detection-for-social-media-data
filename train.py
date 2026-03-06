@@ -115,6 +115,7 @@ def train_model(
         feature_extractor=feature_extractor,
         train_data=train_data,
         val_data=val_data,
+        test_data=test_df.reset_index(drop=True) if test_df is not None else None,
         config=config,
         device=device
     )

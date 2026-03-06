@@ -8,8 +8,9 @@ import torch.optim as optim
 from torch.optim.lr_scheduler import CosineAnnealingLR, StepLR
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 from tqdm import tqdm
-from typing import Dict, Tuple
+from typing import Dict, Tuple, Optional
 import json
 from datetime import datetime
 
@@ -47,6 +48,7 @@ class SarcasmDetectionTrainer:
         feature_extractor: MultimodalFeatureExtractor,
         train_data: pd.DataFrame,
         val_data: pd.DataFrame,
+        test_data: Optional[pd.DataFrame],
         config: Dict,
         device: torch.device
     ):
@@ -54,6 +56,7 @@ class SarcasmDetectionTrainer:
         self.feature_extractor = feature_extractor
         self.train_data = train_data
         self.val_data = val_data
+        self.test_data = test_data if test_data is not None else pd.DataFrame()
         self.config = config
         self.device = device
         
@@ -73,11 +76,15 @@ class SarcasmDetectionTrainer:
         self.best_val_acc = 0.0
         self.best_model_path = None
         self.early_stopping_counter = 0
+        self.track_test_each_epoch = bool(config.get('training', {}).get('track_test_each_epoch', True))
         self.train_history = {
+            'epoch': [],
             'train_loss': [],
             'train_acc': [],
             'val_loss': [],
-            'val_acc': []
+            'val_acc': [],
+            'test_loss': [],
+            'test_acc': []
         }
     
     def _build_optimizer(self) -> optim.Optimizer:
@@ -218,17 +225,23 @@ class SarcasmDetectionTrainer:
             'accuracy': acc_meter.avg
         }
     
-    def validate(self) -> Dict[str, float]:
-        """Validate on validation set"""
+    def _evaluate_split(self, data_df: pd.DataFrame, split_name: str = "Validation") -> Dict[str, float]:
+        """Evaluate loss/accuracy on a given split."""
         self.model.eval()
+
+        if data_df is None or len(data_df) == 0:
+            return {
+                'loss': 0.0,
+                'accuracy': 0.0
+            }
         
         loss_meter = AverageMeter('Loss')
         acc_meter = AverageMeter('Accuracy')
         
-        n_samples = len(self.val_data)
+        n_samples = len(data_df)
         n_batches = (n_samples + self.train_config.batch_size - 1) // self.train_config.batch_size
         
-        pbar = tqdm(total=n_batches, desc="Validating")
+        pbar = tqdm(total=n_batches, desc=f"{split_name}")
         
         with torch.no_grad():
             for batch_idx in range(n_batches):
@@ -237,9 +250,9 @@ class SarcasmDetectionTrainer:
                 batch_indices = list(range(start_idx, end_idx))
                 
                 try:
-                    # Extract features from validation data
+                    # Extract features from the provided split
                     video_features, text_features, audio_features, labels = self._extract_batch_features_from(
-                        self.val_data,
+                        data_df,
                         batch_indices
                     )
                     
@@ -255,7 +268,7 @@ class SarcasmDetectionTrainer:
                     acc_meter.update(acc.item(), len(batch_indices))
                 
                 except Exception as e:
-                    logger.warning(f"Error in validation batch {batch_idx}: {str(e)}")
+                    logger.warning(f"Error in {split_name.lower()} batch {batch_idx}: {str(e)}")
                 
                 pbar.update(1)
         
@@ -265,6 +278,81 @@ class SarcasmDetectionTrainer:
             'loss': loss_meter.avg,
             'accuracy': acc_meter.avg
         }
+
+    def validate(self) -> Dict[str, float]:
+        """Validate on validation set"""
+        return self._evaluate_split(self.val_data, split_name="Validating")
+
+    def test_epoch(self) -> Dict[str, float]:
+        """Evaluate on test set at epoch granularity."""
+        return self._evaluate_split(self.test_data, split_name="Testing")
+
+    def _save_training_artifacts(self, include_plots: bool = True):
+        """Persist per-epoch metrics and plots for training/validation/testing."""
+        results_dir = self.config['paths']['results_dir']
+        os.makedirs(results_dir, exist_ok=True)
+        run_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+        history_json = os.path.join(results_dir, 'training_history.json')
+        history_json_ts = os.path.join(results_dir, f'training_history_{run_timestamp}.json')
+        with open(history_json, 'w', encoding='utf-8') as f:
+            json.dump(self.train_history, f, indent=2)
+        with open(history_json_ts, 'w', encoding='utf-8') as f:
+            json.dump(self.train_history, f, indent=2)
+
+        history_df = pd.DataFrame(self.train_history)
+        history_csv = os.path.join(results_dir, 'training_history.csv')
+        history_csv_ts = os.path.join(results_dir, f'training_history_{run_timestamp}.csv')
+        epoch_report_txt = os.path.join(results_dir, 'per_epoch_metrics.txt')
+        epoch_report_txt_ts = os.path.join(results_dir, f'per_epoch_metrics_{run_timestamp}.txt')
+        history_df.to_csv(history_csv, index=False)
+        history_df.to_csv(history_csv_ts, index=False)
+
+        # Also save a human-readable table for quick manual inspection.
+        history_table = history_df.to_string(index=False)
+        with open(epoch_report_txt, 'w', encoding='utf-8') as f:
+            f.write(history_table + "\n")
+        with open(epoch_report_txt_ts, 'w', encoding='utf-8') as f:
+            f.write(history_table + "\n")
+
+        # Plot train/val/test accuracy per epoch
+        epochs = self.train_history['epoch']
+        if include_plots and epochs:
+            fig = plt.figure(figsize=(10, 5))
+            plt.plot(epochs, self.train_history['train_acc'], label='Train Acc', marker='o')
+            plt.plot(epochs, self.train_history['val_acc'], label='Val Acc', marker='o')
+            if any(v is not None for v in self.train_history['test_acc']):
+                plt.plot(epochs, self.train_history['test_acc'], label='Test Acc', marker='o')
+            plt.xlabel('Epoch')
+            plt.ylabel('Accuracy')
+            plt.title('Accuracy per Epoch')
+            plt.legend()
+            plt.grid(True, alpha=0.3)
+            fig.tight_layout()
+            plt.savefig(os.path.join(results_dir, 'training_accuracy_curve.png'), dpi=150)
+            plt.close(fig)
+
+            fig = plt.figure(figsize=(10, 5))
+            plt.plot(epochs, self.train_history['train_loss'], label='Train Loss', marker='o')
+            plt.plot(epochs, self.train_history['val_loss'], label='Val Loss', marker='o')
+            if any(v is not None for v in self.train_history['test_loss']):
+                plt.plot(epochs, self.train_history['test_loss'], label='Test Loss', marker='o')
+            plt.xlabel('Epoch')
+            plt.ylabel('Loss')
+            plt.title('Loss per Epoch')
+            plt.legend()
+            plt.grid(True, alpha=0.3)
+            fig.tight_layout()
+            plt.savefig(os.path.join(results_dir, 'training_loss_curve.png'), dpi=150)
+            plt.close(fig)
+
+        logger.info(f"Per-epoch JSON (latest): {os.path.abspath(history_json)}")
+        logger.info(f"Per-epoch JSON (timestamped): {os.path.abspath(history_json_ts)}")
+        logger.info(f"Per-epoch CSV (latest): {os.path.abspath(history_csv)}")
+        logger.info(f"Per-epoch CSV (timestamped): {os.path.abspath(history_csv_ts)}")
+        logger.info(f"Per-epoch text report (latest): {os.path.abspath(epoch_report_txt)}")
+        logger.info(f"Per-epoch text report (timestamped): {os.path.abspath(epoch_report_txt_ts)}")
+        logger.info("Training curve plots saved to results directory")
     
     def train(self) -> Dict:
         """Train the model"""
@@ -291,10 +379,25 @@ class SarcasmDetectionTrainer:
             logger.info(f"Val Loss: {val_metrics['loss']:.4f}, Val Acc: {val_metrics['accuracy']:.4f}")
             
             # Store history
+            self.train_history['epoch'].append(epoch + 1)
             self.train_history['train_loss'].append(train_metrics['loss'])
             self.train_history['train_acc'].append(train_metrics['accuracy'])
             self.train_history['val_loss'].append(val_metrics['loss'])
             self.train_history['val_acc'].append(val_metrics['accuracy'])
+
+            if self.track_test_each_epoch and self.test_data is not None and len(self.test_data) > 0:
+                test_metrics = self.test_epoch()
+                self.train_history['test_loss'].append(test_metrics['loss'])
+                self.train_history['test_acc'].append(test_metrics['accuracy'])
+                logger.info(
+                    f"Test Loss: {test_metrics['loss']:.4f}, Test Acc: {test_metrics['accuracy']:.4f}"
+                )
+            else:
+                self.train_history['test_loss'].append(None)
+                self.train_history['test_acc'].append(None)
+
+            # Persist running epoch history so results are available even if interrupted.
+            self._save_training_artifacts(include_plots=False)
             
             # Learning rate scheduler step
             if self.scheduler:
@@ -321,6 +424,8 @@ class SarcasmDetectionTrainer:
         logger.info(f"Best validation accuracy: {self.best_val_acc:.4f}")
         logger.info(f"Training time: {format_time(training_time)}")
         logger.info("=" * 70)
+
+        self._save_training_artifacts(include_plots=True)
         
         return {
             'best_val_acc': self.best_val_acc,
