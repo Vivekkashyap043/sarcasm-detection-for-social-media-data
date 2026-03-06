@@ -19,6 +19,7 @@ class KeywordRequest(BaseModel):
     posts_per_subreddit: int = Field(default=10, ge=1, le=100)
     comments_per_post: int = Field(default=5, ge=0, le=50)
     detailed_explanations: bool = False
+    
 
 
 class PredictionResponse(BaseModel):

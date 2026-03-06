@@ -1,0 +1,12 @@
+ngrok config add-authtoken 3AZgKxuPsVYrE3av2mteYfOXGax_7jpXVfmt4pdzLKaKyRT8o
+
+ngrok http 8000
+
+
+## to run the project
+
+python -m venv venv
+
+source venv/bin/activate
+
+uvicorn api_server:app --reload --port 8000

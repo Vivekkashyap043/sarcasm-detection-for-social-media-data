@@ -1,591 +1,55 @@
 [
   {
     "type": "post",
-    "subreddit": "AutoNewspaper",
-    "title": "[EU] - Donald Trump seeks Kyiv's help in defending against Iranian drones | France24",
-    "text": "[EU] - Donald Trump seeks Kyiv's help in defending against Iranian drones | France24",
+    "subreddit": "trumptweets",
+    "title": "3/6/26 Don't say were at \"war\" with Iran, but we are demanding UNCONDITIONAL SURRENDER! It isn't \"regime change\", we are simply replacing their leadership with the people we want in charge there! (8:50am)",
+    "text": "3/6/26 Don't say were at \"war\" with Iran, but we are demanding UNCONDITIONAL SURRENDER! It isn't \"regime change\", we are simply replacing their leadership with the people we want in charge there! (8:50am)",
     "score": 1,
-    "url": "https://www.france24.com/en/video/20260306-trump-sought-seeks-kyiv-s-help-in-defending-against-iranian-drones",
+    "url": "https://i.redd.it/ejrdvidxlfng1.png",
     "media": {
       "video": null,
-      "image": "results\\downloads\\AutoNewspaper\\1rmbwjt\\qSMibQ3XW8R-3LqJy1ChhlR7PiX6sVjobjkw0HNVkbE.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.7365224957466125,
-      "probabilities": {
-        "not_sarcastic": 0.26347753405570984,
-        "sarcastic": 0.7365224957466125
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 73.65% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
-        "why_how": [
-          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
-        ],
-        "evidence_snippets": [
-          "[EU] - Donald Trump seeks Kyiv's help in defending against Iranian drones | France24"
-        ],
-        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
-        "text_signals": [
-          "all-caps emphasis found: EU"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 0.0,
-          "video": 0.0,
-          "image": 1.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.26347753405570984,
-          "sarcastic": 0.7365224957466125
-        }
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmbwjt",
-    "permalink": "/r/AutoNewspaper/comments/1rmbwjt/eu_donald_trump_seeks_kyivs_help_in_defending/"
-  },
-  {
-    "type": "post",
-    "subreddit": "AutoNewspaper",
-    "title": "[ME] - Donald Trump seeks Kyiv's help in defending against Iranian drones | France24",
-    "text": "[ME] - Donald Trump seeks Kyiv's help in defending against Iranian drones | France24",
-    "score": 1,
-    "url": "https://www.france24.com/en/video/20260306-trump-sought-seeks-kyiv-s-help-in-defending-against-iranian-drones",
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\AutoNewspaper\\1rmbwjp\\qSMibQ3XW8R-3LqJy1ChhlR7PiX6sVjobjkw0HNVkbE.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.7278249859809875,
-      "probabilities": {
-        "not_sarcastic": 0.27217498421669006,
-        "sarcastic": 0.7278249859809875
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 72.78% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
-        "why_how": [
-          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
-        ],
-        "evidence_snippets": [
-          "[ME] - Donald Trump seeks Kyiv's help in defending against Iranian drones | France24"
-        ],
-        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
-        "text_signals": [
-          "all-caps emphasis found: ME"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 0.0,
-          "video": 0.0,
-          "image": 1.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.27217498421669006,
-          "sarcastic": 0.7278249859809875
-        }
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmbwjp",
-    "permalink": "/r/AutoNewspaper/comments/1rmbwjp/me_donald_trump_seeks_kyivs_help_in_defending/"
-  },
-  {
-    "type": "post",
-    "subreddit": "AutoNewspaper",
-    "title": "[NA] - Donald Trump seeks Kyiv's help in defending against Iranian drones | France24",
-    "text": "[NA] - Donald Trump seeks Kyiv's help in defending against Iranian drones | France24",
-    "score": 1,
-    "url": "https://www.france24.com/en/video/20260306-trump-sought-seeks-kyiv-s-help-in-defending-against-iranian-drones",
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\AutoNewspaper\\1rmbwji\\qSMibQ3XW8R-3LqJy1ChhlR7PiX6sVjobjkw0HNVkbE.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.7339087724685669,
-      "probabilities": {
-        "not_sarcastic": 0.2660912275314331,
-        "sarcastic": 0.7339087724685669
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 73.39% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
-        "why_how": [
-          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
-        ],
-        "evidence_snippets": [
-          "[NA] - Donald Trump seeks Kyiv's help in defending against Iranian drones | France24"
-        ],
-        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
-        "text_signals": [
-          "all-caps emphasis found: NA"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 0.0,
-          "video": 0.0,
-          "image": 1.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.2660912275314331,
-          "sarcastic": 0.7339087724685669
-        }
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmbwji",
-    "permalink": "/r/AutoNewspaper/comments/1rmbwji/na_donald_trump_seeks_kyivs_help_in_defending/"
-  },
-  {
-    "type": "post",
-    "subreddit": "Epstein",
-    "title": "Every mention of Donald Trump from 3 newly released FBI interviews that include accusations of sexual abuse with a minor | March 2026",
-    "text": "Every mention of Donald Trump from 3 newly released FBI interviews that include accusations of sexual abuse with a minor | March 2026\nThe Justice Department has finally released three FBI memos describing interviews related to sexual assault allegations against President Donald Trump that had somehow been missing from the Epstein files released by the Department of Justice. \n\nPeole on the internet discovered dozens of witness interviews were missing from the online archive of evidence related to the Jeffrey Epstein investigation, all of which were memorialized in so-called “302” memos laying out what an interviewee told FBI agents. The 302s do not include other corroborating information or agents’ opinions. \n\nAmong the missing records were three memos about follow-up interviews with a woman the FBI deemed credible who told agents that Epstein had repeatedly abused her physically and sexually decades ago, starting when she was approximately 13 years old, and who also accused Trump of sexually assaulting her. \n\nHer first interview was already released in dataset 9: \n\nEFTA01245620 (1st)\n\n[https://www.justice.gov/epstein/files/DataSet%209/EFTA01245620.pdf](https://www.justice.gov/epstein/files/DataSet%209/EFTA01245620.pdf)\n\nThe 3 newly released follow-up interviews were released yesterday in dataset 12: \n\nEFTA02858481 (2nd, red)\nEFTA02858491 (3rd, green)\nEFTA02858495 (4th, blue) \n\n[https://www.justice.gov/epstein/files/DataSet%2012/EFTA02858481.pdf](https://www.justice.gov/epstein/files/DataSet%2012/EFTA02858481.pdf)\n\n[https://www.justice.gov/epstein/files/DataSet%2012/EFTA02858491.pdf](https://www.justice.gov/epstein/files/DataSet%2012/EFTA02858491.pdf)\n\n[https://www.justice.gov/epstein/files/DataSet%2012/EFTA02858495.pd](https://www.justice.gov/epstein/files/DataSet%2012/EFTA02858495.pd)",
-    "score": 2,
-    "url": "https://www.reddit.com/gallery/1rmbwg8",
-    "media": {
-      "video": null,
-      "image": null
+      "image": "results\\downloads\\trumptweets\\1rmevxb\\ejrdvidxlfng1.png"
     },
     "sarcasm_result": {
       "prediction": "NOT SARCASTIC",
-      "confidence": 0.5601369142532349,
+      "confidence": 0.662524938583374,
       "probabilities": {
-        "not_sarcastic": 0.5601369142532349,
-        "sarcastic": 0.4398631453514099
+        "not_sarcastic": 0.662524938583374,
+        "sarcastic": 0.3374750316143036
       }
     },
     "keyword": "Donald trump",
-    "post_id": "1rmbwg8",
-    "permalink": "/r/Epstein/comments/1rmbwg8/every_mention_of_donald_trump_from_3_newly/"
-  },
-  {
-    "type": "comment",
-    "subreddit": "Epstein",
-    "post_title": "Every mention of Donald Trump from 3 newly released FBI interviews that include accusations of sexual abuse with a minor | March 2026",
-    "comment_id": "o8y86rl",
-    "text": "u/WelcomeWindsorCastle please reply to this comment with submission statement and files numbers or link to them if posting a released file. Your submission statement must explain why your post is relevant to the r/Epstein community.\n\nPosts without a submission statement might be removed at the discretion of the moderators.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Epstein) if you have any questions or concerns.*",
-    "score": 1,
-    "media": {
-      "video": null,
-      "image": null
-    },
-    "sarcasm_result": {
-      "prediction": "NOT SARCASTIC",
-      "confidence": 0.5057692527770996,
-      "probabilities": {
-        "not_sarcastic": 0.5057692527770996,
-        "sarcastic": 0.4942307472229004
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmbwg8"
+    "post_id": "1rmevxb",
+    "permalink": "/r/trumptweets/comments/1rmevxb/3626_dont_say_were_at_war_with_iran_but_we_are/"
   },
   {
     "type": "post",
-    "subreddit": "Paramount",
-    "title": "Do you think a Paramount sale to Skydance, not to mention a Warner Bros. sale to Paramount would have likely happened if Kamala Harris were president",
-    "text": "Do you think a Paramount sale to Skydance, not to mention a Warner Bros. sale to Paramount would have likely happened if Kamala Harris were president\nDo you think a Paramount sale to Skydance, let alone a Warner Bros. sale to Paramount would have likely happened if Kamala Harris won the 2024 presidential election instead of Donald Trump.",
+    "subreddit": "u_WeloveSam2014",
+    "title": "The GLAAD Media Award for Outstanding Podcast Episode went to Jennifer Welch and Angie Sullivan’s ‘I've Had It’. Welch while accepting the award: “never obey in advance, fuck ICE, fuck Donald Trump, free Palestine, save trans kids”",
+    "text": "The GLAAD Media Award for Outstanding Podcast Episode went to Jennifer Welch and Angie Sullivan’s ‘I've Had It’. Welch while accepting the award: “never obey in advance, fuck ICE, fuck Donald Trump, free Palestine, save trans kids”",
     "score": 1,
-    "url": "https://www.reddit.com/r/Paramount/comments/1rmbv44/do_you_think_a_paramount_sale_to_skydance_not_to/",
-    "media": {
-      "video": null,
-      "image": null
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.505153238773346,
-      "probabilities": {
-        "not_sarcastic": 0.4948467016220093,
-        "sarcastic": 0.505153238773346
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 50.52% confidence, driven mainly by text (impact 1.00) with evidence taken from this specific content.",
-        "why_how": [
-          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
-        ],
-        "evidence_snippets": [
-          "Do you think a Paramount sale to Skydance, not to mention a Warner Bros.",
-          "sale to Paramount would have likely happened if Kamala Harris were president",
-          "Do you think a Paramount sale to Skydance, let alone a Warner Bros."
-        ],
-        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
-        "text_signals": [
-          "language appears mostly literal with weak irony markers"
-        ],
-        "context_signals": [
-          "prediction relied mostly on text without external media context"
-        ],
-        "modalities_considered": [
-          "text"
-        ],
-        "modality_contributions": {
-          "text": 1.0,
-          "video": 0.0,
-          "image": 0.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.4948467016220093,
-          "sarcastic": 0.505153238773346
-        }
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmbv44",
-    "permalink": "/r/Paramount/comments/1rmbv44/do_you_think_a_paramount_sale_to_skydance_not_to/"
-  },
-  {
-    "type": "post",
-    "subreddit": "Trumpvirus",
-    "title": "MAGA morons are beginning to realize what they voted for.",
-    "text": "MAGA morons are beginning to realize what they voted for.",
-    "score": 1,
-    "url": "https://i.redd.it/wyweoy9dweng1.jpeg",
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\Trumpvirus\\1rmbqr3\\wyweoy9dweng1.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.5899423360824585,
-      "probabilities": {
-        "not_sarcastic": 0.4100576937198639,
-        "sarcastic": 0.5899423360824585
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 58.99% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
-        "why_how": [
-          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
-        ],
-        "evidence_snippets": [
-          "MAGA morons are beginning to realize what they voted for."
-        ],
-        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
-        "text_signals": [
-          "all-caps emphasis found: MAGA"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 0.0,
-          "video": 0.0,
-          "image": 1.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.4100576937198639,
-          "sarcastic": 0.5899423360824585
-        }
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmbqr3",
-    "permalink": "/r/Trumpvirus/comments/1rmbqr3/maga_morons_are_beginning_to_realize_what_they/"
-  },
-  {
-    "type": "comment",
-    "subreddit": "Trumpvirus",
-    "post_title": "MAGA morons are beginning to realize what they voted for.",
-    "comment_id": "o8y73wi",
-    "text": "Welcome to r/Trumpvirus .  Please read the rules before posting.  Please check out related subs such as r/MarchAgainstNazis and r/fuckthealtright .  \n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Trumpvirus) if you have any questions or concerns.*",
-    "score": 1,
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\Trumpvirus\\1rmbqr3\\wyweoy9dweng1.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.610858142375946,
-      "probabilities": {
-        "not_sarcastic": 0.38914185762405396,
-        "sarcastic": 0.610858142375946
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 61.09% confidence, driven mainly by image context (impact 0.99) with evidence taken from this specific content.",
-        "why_how": [
-          "Interrogative phrasing may function as rhetorical stance rather than information-seeking."
-        ],
-        "evidence_snippets": [
-          "Please [contact the moderators of this subreddit](/message/compose/?to=/r/Trumpvirus) if you have any questions or concerns.*",
-          "Please check out related subs such as r/MarchAgainstNazis and r/fuckthealtright .",
-          "*I am a bot, and this action was performed automatically."
-        ],
-        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
-        "text_signals": [
-          "language appears mostly literal with weak irony markers"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 0.012311431702978722,
-          "video": 0.0,
-          "image": 0.9876885682970212,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.38914185762405396,
-          "sarcastic": 0.610858142375946
-        }
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmbqr3"
-  },
-  {
-    "type": "post",
-    "subreddit": "WhatTrumpHasDone",
-    "title": "US companies are being denied refunds on Trump’s illegal tariffs",
-    "text": "US companies are being denied refunds on Trump’s illegal tariffs\nThe US government has declined to refund tariffs the Supreme Court has ruled illegal, according to people familiar with the matter, as the Trump administration tries to hold on to as much as $150bn in disputed levies.\n\nCustoms officials are rejecting companies’ attempts to reclaim duties imposed under emergency powers invoked by US President Donald Trump, leaving businesses in limbo and pushing more cases into court.\n\nCompanies have been unsure how to claim back money paid in duties since America’s top court ruled last month that Trump did not have the authority to impose his signature tariffs under the International Emergency Economic Powers Act.\n\nCompanies submit entries to US Customs and Border Protection detailing products to be imported and relevant tariff codes, among other things. They pay an initial estimated sum, after which CBP finalises the amount and automatically “liquidates” the entry 314 days later, though it may close entries manually before then.\n\nAs part of a process called “Post Summary Correction”, companies can correct submissions to CBP and retroactively amend those that have not been officially closed.\n\nMany companies have rushed to submit PSCs to strike IEEPA tariff codes from their shipment entries and receive refunds. \n\nBut CBP is rejecting their submissions. It is also suspending protests that companies are filing to secure IEEPA tariff repayments the CBP has already liquidated, according to people familiar with the matter. \n\nThe moves come as the Trump administration seeks to hold on to $150bn generated by IEEPA levies, slow-walking refunds that would dent revenues the president had pledged to use for tax refunds and for slashing national debt.\n\nAfter the court ruling, US Treasury secretary Scott Bessent said repayments “could be dragged out over weeks, months, years. I’ve got a feeling the American people won’t see it.”\n\nCBP’s moves narrow the options to obtain refunds at a time when trade lawyers and companies remain mired in uncertainty as they struggle to determine how IEEPA repayments can be secured.\n\n“We believe that companies that paid the IEEPA tariffs are entitled to a refund,” said Ted Murphy, a trade lawyer at Sidley Austin. “How that refund gets effectuated? We don’t know. And I would say nobody knows for sure. Which is crazy.”\n\nSome lawyers have advised their clients to file lawsuits as well as paperwork with the CBP to try and reclaim their tariffs through the administrative process.\n\n“Importers are facing uncertainty around tariff refunds that is in many respects unprecedented,” added Brooks Allen, a partner at Skadden.\n\nThe government in December told a federal court it would refund any IEEPA duties that were deemed illegal, according to filings.\n\nBut CBP argued in court this week that not finalising IEEPA tariff payments would be a task of “unprecedented scale and scope” and that it lacked the “functionality” to change this process.\n\nSome lawyers disagree. “Customs does have automated systems to process refunds,” said David Cohen, a partner at Sandler, Travis and Rosenberg. “Yes, the magnitude is unprecedented, but the tariff refund process takes place routinely.” \n\nThe CBP and the White House did not respond to requests for comment. The Department of Justice declined to comment. \n\nThe Supreme Court did not rule on IEEPA refunds, instead throwing the legally thorny question down to the Court of International Trade, which has been flooded with hundreds of repayment claims.\n\nThe CBP’s rejections could further overwhelm the court.\n\n“Early indications are that CBP may be rejecting administrative relief, which would push everything to the Court of International Trade,” said Allen. \n\nThe CIT on Wednesday took a first step in addressing compensation. Judge Richard Eaton ordered CBP to stop including IEEPA tariffs when finalising companies’ payments, creating an avenue for importers to secure a refund. \n\nThe ruling’s implementation may still be far off, as the government is expected to appeal against it. But it is still a setback for the Trump administration. If the order is ultimately upheld, the CBP would be compelled to create a mechanism to refund the vast majority of IEEPA tariffs, according to Allen. A hearing in the case is scheduled for Friday.\n\nEaton’s order stems from a case in which an importer requested CBP suspend the liquidation of its own entries that included IEEPA tariffs. The government pushed back, noting in court filings that as of December 10, more than 301,000 importers filed roughly 34mn entries subject to IEEPA duties — and approximately 19.2mn of them remained unliquidated.",
-    "score": 1,
-    "url": "https://www.ft.com/content/0315349e-763e-4faa-a5b1-c02ce7801cbd",
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\WhatTrumpHasDone\\1rmbpa4\\UV2oGs2cMULEPe-3QlWswwbnojv84M80KBdoSJi3E1Y.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "NOT SARCASTIC",
-      "confidence": 0.6560724377632141,
-      "probabilities": {
-        "not_sarcastic": 0.6560724377632141,
-        "sarcastic": 0.3439275622367859
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmbpa4",
-    "permalink": "/r/WhatTrumpHasDone/comments/1rmbpa4/us_companies_are_being_denied_refunds_on_trumps/"
-  },
-  {
-    "type": "post",
-    "subreddit": "NepalSocial",
-    "title": "lmaooo just remembered this meme.",
-    "text": "lmaooo just remembered this meme.\nGuess who might post this real soon ?",
-    "score": 10,
-    "url": "https://i.redd.it/e8a0cnyyueng1.jpeg",
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\NepalSocial\\1rmblg9\\e8a0cnyyueng1.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.6543195843696594,
-      "probabilities": {
-        "not_sarcastic": 0.3456804156303406,
-        "sarcastic": 0.6543195843696594
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 65.43% confidence, driven mainly by image context (impact 0.90) with evidence taken from this specific content.",
-        "why_how": [
-          "Explicit sarcasm-style markers appear in text (lmao).",
-          "Interrogative phrasing may function as rhetorical stance rather than information-seeking."
-        ],
-        "evidence_snippets": [
-          "Guess who might post this real soon ?",
-          "lmaooo just remembered this meme."
-        ],
-        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
-        "text_signals": [
-          "sarcasm markers detected: lmao"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 0.0984868562639932,
-          "video": 0.0,
-          "image": 0.9015131437360068,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.3456804156303406,
-          "sarcastic": 0.6543195843696594
-        }
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmblg9",
-    "permalink": "/r/NepalSocial/comments/1rmblg9/lmaooo_just_remembered_this_meme/"
-  },
-  {
-    "type": "comment",
-    "subreddit": "NepalSocial",
-    "post_title": "lmaooo just remembered this meme.",
-    "comment_id": "o8y64mk",
-    "text": "Thanks for making a submission. Please use an appropriate flair for better reach and response. In case of a NSFW post, tag it as NSFW and use \"sax sux” flair if it applies. Otherwise, the post will be removed.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/NepalSocial) if you have any questions or concerns.*",
-    "score": 1,
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\NepalSocial\\1rmblg9\\e8a0cnyyueng1.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.6580397486686707,
-      "probabilities": {
-        "not_sarcastic": 0.34196022152900696,
-        "sarcastic": 0.6580397486686707
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 65.80% confidence, driven mainly by image context (impact 0.88) with evidence taken from this specific content.",
-        "why_how": [
-          "Interrogative phrasing may function as rhetorical stance rather than information-seeking."
-        ],
-        "evidence_snippets": [
-          "Please [contact the moderators of this subreddit](/message/compose/?to=/r/NepalSocial) if you have any questions or concerns.*",
-          "Please use an appropriate flair for better reach and response.",
-          "In case of a NSFW post, tag it as NSFW and use \"sax sux” flair if it applies."
-        ],
-        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
-        "text_signals": [
-          "all-caps emphasis found: NSFW",
-          "long contextual text provides broader discourse cues"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 0.12077718578717205,
-          "video": 0.0,
-          "image": 0.879222814212828,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.34196022152900696,
-          "sarcastic": 0.6580397486686707
-        }
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmblg9"
-  },
-  {
-    "type": "comment",
-    "subreddit": "NepalSocial",
-    "post_title": "lmaooo just remembered this meme.",
-    "comment_id": "o8y6axp",
-    "text": "English ma ta aako aai ho💀",
-    "score": 1,
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\NepalSocial\\1rmblg9\\e8a0cnyyueng1.jpeg"
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.6487287878990173,
-      "probabilities": {
-        "not_sarcastic": 0.35127127170562744,
-        "sarcastic": 0.6487287878990173
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 64.87% confidence, driven mainly by image context (impact 0.94) with evidence taken from this specific content.",
-        "why_how": [
-          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
-        ],
-        "evidence_snippets": [
-          "English ma ta aako aai ho💀"
-        ],
-        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
-        "text_signals": [
-          "language appears mostly literal with weak irony markers"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 0.06248712644120104,
-          "video": 0.0,
-          "image": 0.937512873558799,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.35127127170562744,
-          "sarcastic": 0.6487287878990173
-        }
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmblg9"
-  },
-  {
-    "type": "post",
-    "subreddit": "WatchWhatCrappens",
-    "title": "Friends of the pod - The GLAAD Media Award for Outstanding Podcast Episode went to Jennifer Welch and Angie Sullivan’s ‘I've Had It’. Welch while accepting the award: “never obey in advance, fuck ICE, fuck Donald Trump, free Palestine, save trans kids”",
-    "text": "Friends of the pod - The GLAAD Media Award for Outstanding Podcast Episode went to Jennifer Welch and Angie Sullivan’s ‘I've Had It’. Welch while accepting the award: “never obey in advance, fuck ICE, fuck Donald Trump, free Palestine, save trans kids”",
-    "score": 9,
     "url": "https://v.redd.it/582vc6vm5dng1",
     "media": {
       "video": null,
-      "image": "results\\downloads\\WatchWhatCrappens\\1rmbkyi\\bjdhaHNvc201ZG5nMfWjp6uJRTkGsVp3jCOCmF1cVoH3Q9lSoEjxE-OalGum.png"
+      "image": "results\\downloads\\u_WeloveSam2014\\1rmev1b\\bjdhaHNvc201ZG5nMfWjp6uJRTkGsVp3jCOCmF1cVoH3Q9lSoEjxE-OalGum.png"
     },
     "sarcasm_result": {
       "prediction": "SARCASTIC",
-      "confidence": 0.7997536659240723,
+      "confidence": 0.7966566681861877,
       "probabilities": {
-        "not_sarcastic": 0.20024637877941132,
-        "sarcastic": 0.7997536659240723
+        "not_sarcastic": 0.20334339141845703,
+        "sarcastic": 0.7966566681861877
       },
       "explanation": {
         "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 79.98% confidence, driven mainly by image context (impact 0.98) with evidence taken from this specific content.",
+        "summary": "Predicted SARCASTIC with 79.67% confidence, driven mainly by image context (impact 0.99) with evidence taken from this specific content.",
         "why_how": [
           "Contrast connectors indicate a shift between clauses that can support ironic framing.",
           "Hyperbolic terms suggest exaggeration rather than purely literal reporting."
         ],
         "evidence_snippets": [
           "Welch while accepting the award: “never obey in advance, fuck ICE, fuck Donald Trump, free Palestine, save trans kids”",
-          "Friends of the pod - The GLAAD Media Award for Outstanding Podcast Episode went to Jennifer Welch and Angie Sullivan’s ‘I've Had It’."
+          "The GLAAD Media Award for Outstanding Podcast Episode went to Jennifer Welch and Angie Sullivan’s ‘I've Had It’."
         ],
         "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
         "text_signals": [
@@ -600,104 +64,60 @@
           "image context"
         ],
         "modality_contributions": {
-          "text": 0.01622710630240958,
+          "text": 0.005541666863543926,
           "video": 0.0,
-          "image": 0.9837728936975905,
+          "image": 0.994458333136456,
           "audio": 0.0
         },
         "class_probabilities": {
-          "not_sarcastic": 0.20024637877941132,
-          "sarcastic": 0.7997536659240723
+          "not_sarcastic": 0.20334339141845703,
+          "sarcastic": 0.7966566681861877
         }
       }
     },
     "keyword": "Donald trump",
-    "post_id": "1rmbkyi",
-    "permalink": "/r/WatchWhatCrappens/comments/1rmbkyi/friends_of_the_pod_the_glaad_media_award_for/"
-  },
-  {
-    "type": "comment",
-    "subreddit": "WatchWhatCrappens",
-    "post_title": "Friends of the pod - The GLAAD Media Award for Outstanding Podcast Episode went to Jennifer Welch and Angie Sullivan’s ‘I've Had It’. Welch while accepting the award: “never obey in advance, fuck ICE, fuck Donald Trump, free Palestine, save trans kids”",
-    "comment_id": "o8y7ydj",
-    "text": "Preach.",
-    "score": 1,
-    "media": {
-      "video": null,
-      "image": "results\\downloads\\WatchWhatCrappens\\1rmbkyi\\bjdhaHNvc201ZG5nMfWjp6uJRTkGsVp3jCOCmF1cVoH3Q9lSoEjxE-OalGum.png"
-    },
-    "sarcasm_result": {
-      "prediction": "SARCASTIC",
-      "confidence": 0.6933263540267944,
-      "probabilities": {
-        "not_sarcastic": 0.30667367577552795,
-        "sarcastic": 0.6933263540267944
-      },
-      "explanation": {
-        "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 69.33% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
-        "why_how": [
-          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
-        ],
-        "evidence_snippets": [
-          "Preach."
-        ],
-        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
-        "text_signals": [
-          "short literal text with limited sarcasm markers"
-        ],
-        "context_signals": [
-          "image cues were used as contextual evidence"
-        ],
-        "modalities_considered": [
-          "text",
-          "image context"
-        ],
-        "modality_contributions": {
-          "text": 0.0,
-          "video": 0.0,
-          "image": 1.0,
-          "audio": 0.0
-        },
-        "class_probabilities": {
-          "not_sarcastic": 0.30667367577552795,
-          "sarcastic": 0.6933263540267944
-        }
-      }
-    },
-    "keyword": "Donald trump",
-    "post_id": "1rmbkyi"
+    "post_id": "1rmev1b",
+    "permalink": "/r/u_WeloveSam2014/comments/1rmev1b/the_glaad_media_award_for_outstanding_podcast/"
   },
   {
     "type": "post",
-    "subreddit": "okbuddycinephile",
-    "title": "The Apprentice (2024)",
-    "text": "The Apprentice (2024)",
-    "score": 12,
-    "url": "https://i.redd.it/weloo1gtueng1.jpeg",
+    "subreddit": "Defeat_Project_2025",
+    "title": "Trump ballroom vote pushed to April after critics blast 'hideous,' 'appalling,' 'shameful' plans",
+    "text": "Trump ballroom vote pushed to April after critics blast 'hideous,' 'appalling,' 'shameful' plans\nThe National Capital Planning Commission on Thursday pushed an expected vote on President Donald Trump's new White House ballroom plans to next month as it wades through a deluge of public comments about the massive project, much of it negative.\n\n\\- Critics had flooded the ballroom project with public comments decrying the demolition and new building plans as an \"appalling idea,\" \"absolutely shameful\" and \"hideous\" and urging the commission to \"leave it alone!!\"\n\n\\- Will Scharf, whom Trump appointed as the commission's chair, announced at the start of the virtual meeting that the panel will hold a final vote on the project April 2, rather than immediately after public testimony, because of \"the amount of the testimony that we're hearing and the large volume of written comments.\"\n\n\\- The commission would typically vote directly after public testimony, Scharf said. Hours later, he refuted reports that the ballroom vote was delayed, saying that “our plan has been to proceed to a final vote on this project on April 2 for quite some time.” Reached for comment, a White House official also said the commission had “always” planned to vote at the next gathering.\n\n\\- The 90,000-square-foot project has ignited controversy, with Democrats criticizing Trump's decision to dramatically reshape the White House by demolishing the East Wing to pave the way for the ballroom.\n\n\\- The National Capital Planning Commission is led by Trump appointees, and the meeting comes weeks after the U.S. Commission of Fine Arts, also packed with Trump allies, approved the design plans.\n\n\\- Scharf announced that about 100 people signed up to speak about the ballroom, adding that he expected the meeting to run into Friday.\n\n\\- \"One way or the other, we are going to make sure that members of the public have the opportunity to be heard on this project,\" he said.\n\n\\- As Trump pushed the ballroom plans forward, he reshaped the very committees that are tasked with deciding whether to approve the project. In October, the White House fired all six previous members of the Commission of Fine Arts.\n\n\\- Trump has said the ballroom will improve the White House’s ability to host foreign leaders and large indoor events, rather than use makeshift tents on the South Lawn.\n\n\\- Critics have flooded the National Capital Planning Commission with negative public comments, however, slamming the project as a \"ridiculous idea,\" a \"monstrosity\" and \"vulgar.\"\n\n\\- \"The very idea that Donald Trump wants to tear down a wing of the White House, the People’s House is an appalling idea,\" one person wrote. \"He is a tenant, not an owner. Therefore, he has no right to make such an egregious change to the White House.\"\n\n\\- Protesters planned to rally outside the meeting Thursday, the left-leaning advocacy organization Public Citizen said in a news release.\n\n\\- The preservationist group National Trust for Historic Preservation sued to block the ballroom's construction, but a federal judge rejected the bid. U.S. District Judge Richard Leon argued that the group based the lawsuit on a \"ragtag group of theories\" that didn’t \"bring the necessary cause of action to test the statutory authority\" of Trump to pursue the project with private funding and outside of Congress' approval.\n\n\\- Some architects have also weighed in on the addition, which is nearly twice the size of the executive residence. David Scott Parker, a member of the preservation group that brought the suit and a fellow of the American Institute of Architects, told The Associated Press in an interview that \"everything here feels inflated.\"\n\n\\- “The net effect of this is to adversely impact what is the most important historic — the most identifiable historic — house in the entire United States,” Parker said.\n\n\\- The White House's East Wing was demolished in October, months after Trump said the ballroom \"won’t interfere with the current building.\" He originally estimated that the project would cost $200 million, but that has doubled to $400 million.\n\n\\- Trump has said private donors, including him, would pay for the project. The White House has provided a list of donors, which includes numerous corporations, but donors are also allowed to remain anonymous, and it is unclear how much they donated. Comcast Corp., the parent company of NBC News, is one of the donors",
+    "score": 1,
+    "url": "https://www.nbcnews.com/politics/white-house/trump-allies-planning-commission-white-house-ballrooom-approval-rcna261884",
     "media": {
       "video": null,
-      "image": "results\\downloads\\okbuddycinephile\\1rmbkx3\\weloo1gtueng1.jpeg"
+      "image": "results\\downloads\\Defeat_Project_2025\\1rmeuu6\\IZ0YvDeER9drkjvUgNFWlmwyRU7CtjxcRE5HhrPNOfU.jpeg"
     },
     "sarcasm_result": {
       "prediction": "SARCASTIC",
-      "confidence": 0.6102945804595947,
+      "confidence": 0.5693730711936951,
       "probabilities": {
-        "not_sarcastic": 0.38970544934272766,
-        "sarcastic": 0.6102945804595947
+        "not_sarcastic": 0.43062683939933777,
+        "sarcastic": 0.5693730711936951
       },
       "explanation": {
         "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 61.03% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "summary": "Predicted SARCASTIC with 56.94% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
         "why_how": [
-          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
+          "Explicit sarcasm-style markers appear in text (sure).",
+          "Contrast connectors indicate a shift between clauses that can support ironic framing.",
+          "Hyperbolic terms suggest exaggeration rather than purely literal reporting.",
+          "Exclamation emphasis indicates heightened affective tone."
         ],
         "evidence_snippets": [
-          "The Apprentice (2024)"
+          "\\- Critics had flooded the ballroom project with public comments decrying the demolition and new building plans as an \"appalling idea,\" \"absolutely shameful\" and \"hideous\" and u...",
+          "Hours later, he refuted reports that the ballroom vote was delayed, saying that “our plan has been to proceed to a final vote on this project on April 2 for quite some time.” Re...",
+          "\\- \"One way or the other, we are going to make sure that members of the public have the opportunity to be heard on this project,\" he said."
         ],
         "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
         "text_signals": [
-          "short literal text with limited sarcasm markers"
+          "sarcasm markers detected: sure",
+          "exaggeration words found: absolutely, always",
+          "strong punctuation pattern indicates emphatic tone",
+          "all-caps emphasis found: NBC",
+          "long contextual text provides broader discourse cues"
         ],
         "context_signals": [
           "image cues were used as contextual evidence"
@@ -713,41 +133,163 @@
           "audio": 0.0
         },
         "class_probabilities": {
-          "not_sarcastic": 0.38970544934272766,
-          "sarcastic": 0.6102945804595947
+          "not_sarcastic": 0.43062683939933777,
+          "sarcastic": 0.5693730711936951
         }
       }
     },
     "keyword": "Donald trump",
-    "post_id": "1rmbkx3",
-    "permalink": "/r/okbuddycinephile/comments/1rmbkx3/the_apprentice_2024/"
+    "post_id": "1rmeuu6",
+    "permalink": "/r/Defeat_Project_2025/comments/1rmeuu6/trump_ballroom_vote_pushed_to_april_after_critics/"
   },
   {
     "type": "comment",
-    "subreddit": "okbuddycinephile",
-    "post_title": "The Apprentice (2024)",
-    "comment_id": "o8y8hif",
-    "text": "Well you’d still be half right ",
-    "score": 2,
+    "subreddit": "Defeat_Project_2025",
+    "post_title": "Trump ballroom vote pushed to April after critics blast 'hideous,' 'appalling,' 'shameful' plans",
+    "comment_id": "o8ytxdi",
+    "text": "Thanks to everyone that made public comments - looks like if you happen to be in DC, there are some protests you can attend if you like.",
+    "score": 1,
     "media": {
       "video": null,
-      "image": "results\\downloads\\okbuddycinephile\\1rmbkx3\\weloo1gtueng1.jpeg"
+      "image": "results\\downloads\\Defeat_Project_2025\\1rmeuu6\\IZ0YvDeER9drkjvUgNFWlmwyRU7CtjxcRE5HhrPNOfU.jpeg"
     },
     "sarcasm_result": {
       "prediction": "SARCASTIC",
-      "confidence": 0.7295875549316406,
+      "confidence": 0.7032220959663391,
       "probabilities": {
-        "not_sarcastic": 0.27041250467300415,
-        "sarcastic": 0.7295875549316406
+        "not_sarcastic": 0.2967778742313385,
+        "sarcastic": 0.7032220959663391
       },
       "explanation": {
         "method": "CONTENT_AWARE",
-        "summary": "Predicted SARCASTIC with 72.96% confidence, driven mainly by image context (impact 0.80) with evidence taken from this specific content.",
+        "summary": "Predicted SARCASTIC with 70.32% confidence, driven mainly by image context (impact 0.88) with evidence taken from this specific content.",
+        "why_how": [
+          "Hyperbolic terms suggest exaggeration rather than purely literal reporting."
+        ],
+        "evidence_snippets": [
+          "Thanks to everyone that made public comments - looks like if you happen to be in DC, there are some protests you can attend if you like."
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "exaggeration words found: everyone",
+          "all-caps emphasis found: DC"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.12166610010444899,
+          "video": 0.0,
+          "image": 0.878333899895551,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.2967778742313385,
+          "sarcastic": 0.7032220959663391
+        }
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmeuu6"
+  },
+  {
+    "type": "post",
+    "subreddit": "wallstreetbetsGER",
+    "title": "Der Typ hat fertig",
+    "text": "Der Typ hat fertig",
+    "score": 2,
+    "url": "https://i.redd.it/oyxyywwrlfng1.png",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\wallstreetbetsGER\\1rmetbk\\oyxyywwrlfng1.png"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.621131956577301,
+      "probabilities": {
+        "not_sarcastic": 0.621131956577301,
+        "sarcastic": 0.37886807322502136
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmetbk",
+    "permalink": "/r/wallstreetbetsGER/comments/1rmetbk/der_typ_hat_fertig/"
+  },
+  {
+    "type": "comment",
+    "subreddit": "wallstreetbetsGER",
+    "post_title": "Der Typ hat fertig",
+    "comment_id": "o8yts8x",
+    "text": "Wann kommen eigentlich die Männer mit den Jacken, die man am Rücken zumacht?",
+    "score": 1,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\wallstreetbetsGER\\1rmetbk\\oyxyywwrlfng1.png"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6826384663581848,
+      "probabilities": {
+        "not_sarcastic": 0.6826384663581848,
+        "sarcastic": 0.31736159324645996
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmetbk"
+  },
+  {
+    "type": "post",
+    "subreddit": "TrendoraX",
+    "title": "Trump says that he’ll only accept Iran’s Unconditional Surrender in order to end the war",
+    "text": "Trump says that he’ll only accept Iran’s Unconditional Surrender in order to end the war",
+    "score": 2,
+    "url": "https://i.redd.it/s5h88lqolfng1.jpeg",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\TrendoraX\\1rmesva\\s5h88lqolfng1.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6029267311096191,
+      "probabilities": {
+        "not_sarcastic": 0.6029267311096191,
+        "sarcastic": 0.39707323908805847
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmesva",
+    "permalink": "/r/TrendoraX/comments/1rmesva/trump_says_that_hell_only_accept_irans/"
+  },
+  {
+    "type": "comment",
+    "subreddit": "TrendoraX",
+    "post_title": "Trump says that he’ll only accept Iran’s Unconditional Surrender in order to end the war",
+    "comment_id": "o8ytod1",
+    "text": "World war 3 at your doorstep. ",
+    "score": 2,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\TrendoraX\\1rmesva\\s5h88lqolfng1.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.6672177910804749,
+      "probabilities": {
+        "not_sarcastic": 0.33278223872184753,
+        "sarcastic": 0.6672177910804749
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 66.72% confidence, driven mainly by image context (impact 0.98) with evidence taken from this specific content.",
         "why_how": [
           "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
         ],
         "evidence_snippets": [
-          "Well you’d still be half right"
+          "World war 3 at your doorstep."
         ],
         "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
         "text_signals": [
@@ -761,18 +303,487 @@
           "image context"
         ],
         "modality_contributions": {
-          "text": 0.2001896870164229,
+          "text": 0.024247016863866697,
           "video": 0.0,
-          "image": 0.7998103129835771,
+          "image": 0.9757529831361333,
           "audio": 0.0
         },
         "class_probabilities": {
-          "not_sarcastic": 0.27041250467300415,
-          "sarcastic": 0.7295875549316406
+          "not_sarcastic": 0.33278223872184753,
+          "sarcastic": 0.6672177910804749
         }
       }
     },
     "keyword": "Donald trump",
-    "post_id": "1rmbkx3"
+    "post_id": "1rmesva"
+  },
+  {
+    "type": "comment",
+    "subreddit": "TrendoraX",
+    "post_title": "Trump says that he’ll only accept Iran’s Unconditional Surrender in order to end the war",
+    "comment_id": "o8ytkiz",
+    "text": "He is getting desperate. ",
+    "score": 1,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\TrendoraX\\1rmesva\\s5h88lqolfng1.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6417304873466492,
+      "probabilities": {
+        "not_sarcastic": 0.6417304873466492,
+        "sarcastic": 0.35826951265335083
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmesva"
+  },
+  {
+    "type": "comment",
+    "subreddit": "TrendoraX",
+    "post_title": "Trump says that he’ll only accept Iran’s Unconditional Surrender in order to end the war",
+    "comment_id": "o8yttvt",
+    "text": "That's your deal? Do what you want or get turned into Gaza?",
+    "score": 1,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\TrendoraX\\1rmesva\\s5h88lqolfng1.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.6472654342651367,
+      "probabilities": {
+        "not_sarcastic": 0.35273459553718567,
+        "sarcastic": 0.6472654342651367
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 64.73% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Interrogative phrasing may function as rhetorical stance rather than information-seeking."
+        ],
+        "evidence_snippets": [
+          "Do what you want or get turned into Gaza?",
+          "That's your deal?"
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "strong punctuation pattern indicates emphatic tone"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.0,
+          "video": 0.0,
+          "image": 1.0,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.35273459553718567,
+          "sarcastic": 0.6472654342651367
+        }
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmesva"
+  },
+  {
+    "type": "comment",
+    "subreddit": "TrendoraX",
+    "post_title": "Trump says that he’ll only accept Iran’s Unconditional Surrender in order to end the war",
+    "comment_id": "o8ytynp",
+    "text": "Well, they've briefed their units already on their goal - starting an Apocalypse - so everything checks out?",
+    "score": 1,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\TrendoraX\\1rmesva\\s5h88lqolfng1.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.6124885678291321,
+      "probabilities": {
+        "not_sarcastic": 0.3875114619731903,
+        "sarcastic": 0.6124885678291321
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 61.25% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Interrogative phrasing may function as rhetorical stance rather than information-seeking."
+        ],
+        "evidence_snippets": [
+          "Well, they've briefed their units already on their goal - starting an Apocalypse - so everything checks out?"
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "language appears mostly literal with weak irony markers"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.0,
+          "video": 0.0,
+          "image": 1.0,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.3875114619731903,
+          "sarcastic": 0.6124885678291321
+        }
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmesva"
+  },
+  {
+    "type": "comment",
+    "subreddit": "TrendoraX",
+    "post_title": "Trump says that he’ll only accept Iran’s Unconditional Surrender in order to end the war",
+    "comment_id": "o8yu02h",
+    "text": "Total lunatic! ",
+    "score": 1,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\TrendoraX\\1rmesva\\s5h88lqolfng1.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.5035683512687683,
+      "probabilities": {
+        "not_sarcastic": 0.4964316189289093,
+        "sarcastic": 0.5035683512687683
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 50.36% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Exclamation emphasis indicates heightened affective tone."
+        ],
+        "evidence_snippets": [
+          "Total lunatic!"
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "short literal text with limited sarcasm markers"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.0,
+          "video": 0.0,
+          "image": 1.0,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.4964316189289093,
+          "sarcastic": 0.5035683512687683
+        }
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmesva"
+  },
+  {
+    "type": "post",
+    "subreddit": "SRPressDemo",
+    "title": "Gulf Allies Upset",
+    "text": "Gulf Allies Upset\n[https://www.pressdemocrat.com/2026/03/06/gulf-allies-us-iran-war/](https://www.pressdemocrat.com/2026/03/06/gulf-allies-us-iran-war/)\n\n  \nJohn Bolton has said that Donald Trump doesn't understand what \"ally\" means.",
+    "score": 1,
+    "url": "https://www.reddit.com/r/SRPressDemo/comments/1rmesu3/gulf_allies_upset/",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\SRPressDemo\\1rmesu3\\oOUmE1gSkUs3cOUbxN8yxeNiKTaVt7YLlhAx4Tfm7hk.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.630925714969635,
+      "probabilities": {
+        "not_sarcastic": 0.3690743148326874,
+        "sarcastic": 0.630925714969635
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 63.09% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
+        ],
+        "evidence_snippets": [
+          "John Bolton has said that Donald Trump doesn't understand what \"ally\" means.",
+          "Gulf Allies Upset",
+          "[https://www.pressdemocrat.com/2026/03/06/gulf-allies-us-iran-war/](https://www.pressdemocrat.com/2026/03/06/gulf-allies-us-iran-war/)"
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "language appears mostly literal with weak irony markers"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.0,
+          "video": 0.0,
+          "image": 1.0,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.3690743148326874,
+          "sarcastic": 0.630925714969635
+        }
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmesu3",
+    "permalink": "/r/SRPressDemo/comments/1rmesu3/gulf_allies_upset/"
+  },
+  {
+    "type": "comment",
+    "subreddit": "SRPressDemo",
+    "post_title": "Gulf Allies Upset",
+    "comment_id": "o8ytkex",
+    "text": "Rattlesnakes don't understand \"ally\" either.",
+    "score": 1,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\SRPressDemo\\1rmesu3\\oOUmE1gSkUs3cOUbxN8yxeNiKTaVt7YLlhAx4Tfm7hk.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.7735477089881897,
+      "probabilities": {
+        "not_sarcastic": 0.22645235061645508,
+        "sarcastic": 0.7735477089881897
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 77.35% confidence, driven mainly by image context (impact 0.88) with evidence taken from this specific content.",
+        "why_how": [
+          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
+        ],
+        "evidence_snippets": [
+          "Rattlesnakes don't understand \"ally\" either."
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "short literal text with limited sarcasm markers"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.12088403350781786,
+          "video": 0.0,
+          "image": 0.8791159664921822,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.22645235061645508,
+          "sarcastic": 0.7735477089881897
+        }
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmesu3"
+  },
+  {
+    "type": "post",
+    "subreddit": "StockPickNews",
+    "title": "6 Defense Stocks with Strong Prospects",
+    "text": "6 Defense Stocks with Strong Prospects\nGeopolitical tensions will remain high, prompting record spending on national defense by governments around the world. And warfare is changing with lower-cost artificial-intelligence-trained drones growing in importance over traditional technologies.\n\nWall Street now forecasts roughly 8% annual earnings growth on 6% sales growth for large U.S. defense contractors over the coming few years, up from essentially no earnings growth and 5% sales growth over the prior few years. For international defense stocks, earnings are expected to grow 20% annually on double-digit sales growth, up from about 10% earnings growth and 7% sales in recent years. And in a more dangerous world, those numbers are likely to continue to rise.\n\n\nHere are six stocks poised to benefit.\n\n\nBAE Systems (BAESY)\n\nThe war in Iran is an international affair, and Britain’s BAE Systems, a maker of fighter jets, drones, munitions, and naval systems, is a key global defense player. It’s also a big supplier on Lockheed Martin’s F-35 program.\n\n\nCurtiss-Wright (CW)\n\nPresident Donald Trump wants to boost the defense budget—and Curtiss-Wright, a supplier of defense electronics, aerospace parts, naval technologies, and nuclear power components, should be one of the biggest beneficiaries.\n\n\nLockheed Martin (LMT)\n\nLockheed has become a victim of its own success. Its fifth-generation F-35 fighter jet is used by more than a dozen countries and accounts for some 25% of Lockheed’s annual revenue. That revenue could be at risk if autonomous drone technologies replaced manned fighters.\n\n\nKarman Holdings (KRMN)\n\nDrones are the future of war, and Karman is a near-perfect play. It supplies solid rocket motors for missiles, drone parts, and protective shrouds for satellites launched into space. In February, it agreed to acquire Seemann Composites and Materials Sciences, which makes sea-based drone technology.\n\n\nKratos Defense &amp; Security Solutions (KTOS)\n\nThe U.S. needs more drones and counter-drone tech—and that’s where Kratos comes in. It makes Valkyrie, which will one day fly beside manned fighter jets, as well as strike drones, propulsion, and counter-drone solutions.\n\n\nRTX (RTX)\n\nRTX is a primary missile system supplier to the U.S. military, recently agreeing with the Department of Defense to increase production of interceptors, advanced medium-range air-to-air missiles, and Tomahawk cruise missiles. Its interceptor products are protecting U.S. naval and other assets, while hundreds of tomahawks have struck Iranian targets.\n\n\nBarron’s",
+    "score": 1,
+    "url": "https://www.reddit.com/r/StockPickNews/comments/1rmeqzi/6_defense_stocks_with_strong_prospects/",
+    "media": {
+      "video": null,
+      "image": null
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.5691560506820679,
+      "probabilities": {
+        "not_sarcastic": 0.5691560506820679,
+        "sarcastic": 0.4308439791202545
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmeqzi",
+    "permalink": "/r/StockPickNews/comments/1rmeqzi/6_defense_stocks_with_strong_prospects/"
+  },
+  {
+    "type": "post",
+    "subreddit": "world24x7hr",
+    "title": "Trump asking for \"UNCONDITIONAL SURRENDER!” from Iran, says no deal",
+    "text": "Trump asking for \"UNCONDITIONAL SURRENDER!” from Iran, says no deal",
+    "score": 2,
+    "url": "https://i.redd.it/ancb2ud7lfng1.jpeg",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\world24x7hr\\1rmeq9h\\ancb2ud7lfng1.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.5587870478630066,
+      "probabilities": {
+        "not_sarcastic": 0.5587870478630066,
+        "sarcastic": 0.44121304154396057
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmeq9h",
+    "permalink": "/r/world24x7hr/comments/1rmeq9h/trump_asking_for_unconditional_surrender_from/"
+  },
+  {
+    "type": "post",
+    "subreddit": "UAE",
+    "title": "what exactly does this mean?",
+    "text": "what exactly does this mean?",
+    "score": 1,
+    "url": "https://i.redd.it/g5lp0tp4lfng1.jpeg",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\UAE\\1rmepwr\\g5lp0tp4lfng1.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.5564296841621399,
+      "probabilities": {
+        "not_sarcastic": 0.4435703456401825,
+        "sarcastic": 0.5564296841621399
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 55.64% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Interrogative phrasing may function as rhetorical stance rather than information-seeking."
+        ],
+        "evidence_snippets": [
+          "what exactly does this mean?"
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "short literal text with limited sarcasm markers"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.0,
+          "video": 0.0,
+          "image": 1.0,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.4435703456401825,
+          "sarcastic": 0.5564296841621399
+        }
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmepwr",
+    "permalink": "/r/UAE/comments/1rmepwr/what_exactly_does_this_mean/"
+  },
+  {
+    "type": "comment",
+    "subreddit": "UAE",
+    "post_title": "what exactly does this mean?",
+    "comment_id": "o8yttck",
+    "text": "That means Iran has to surrender, no other option for a ceasefire. Iran said they aren’t willing to negotiate with the US and now US says this.\n\nIdk what Huck is Fappening. ",
+    "score": 2,
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\UAE\\1rmepwr\\g5lp0tp4lfng1.jpeg"
+    },
+    "sarcasm_result": {
+      "prediction": "SARCASTIC",
+      "confidence": 0.583833634853363,
+      "probabilities": {
+        "not_sarcastic": 0.41616636514663696,
+        "sarcastic": 0.583833634853363
+      },
+      "explanation": {
+        "method": "CONTENT_AWARE",
+        "summary": "Predicted SARCASTIC with 58.38% confidence, driven mainly by image context (impact 1.00) with evidence taken from this specific content.",
+        "why_how": [
+          "Subtle non-literal cues are weak individually but collectively push the prediction toward sarcasm."
+        ],
+        "evidence_snippets": [
+          "That means Iran has to surrender, no other option for a ceasefire.",
+          "Iran said they aren’t willing to negotiate with the US and now US says this.",
+          "Idk what Huck is Fappening."
+        ],
+        "meaning_interpretation": "The model interprets likely irony: wording, emphasis, or context signals suggest non-literal intent.",
+        "text_signals": [
+          "all-caps emphasis found: US"
+        ],
+        "context_signals": [
+          "image cues were used as contextual evidence"
+        ],
+        "modalities_considered": [
+          "text",
+          "image context"
+        ],
+        "modality_contributions": {
+          "text": 0.0,
+          "video": 0.0,
+          "image": 1.0,
+          "audio": 0.0
+        },
+        "class_probabilities": {
+          "not_sarcastic": 0.41616636514663696,
+          "sarcastic": 0.583833634853363
+        }
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmepwr"
+  },
+  {
+    "type": "post",
+    "subreddit": "ProgressiveHQ",
+    "title": "DT is a PEDO",
+    "text": "DT is a PEDO\nsource FBI Files - https://www.justice.gov/epstein/files/DataSet%2012/EFTA02858481.pdf\n\n**Quote from the files \n**\n\nAt some point, her mother and brother, , picked her up and drove her home. mother in Savannah, II recalled at least one incident in which EPSTEIN took her off of the Island when she was between 13 to 15 years old. He drove her and/or flew her to either New York or New Jersey. She was, \"introduced to someone with money, money... It was Donald Trump.\" II and EPSTEIN were with others, to include TRUMP, in a very tall building with huge rooms. TRUMP did not like II, \"from the get-go, he didn't like that I was a boy-girl\" (referencing a UNCLASSIFIED//FOUO CONFIDENTIAL 3501.045-003 Page 7 of 10 EFTA_00057737 EFTA02858487 FD-302a (Re'. 5-810) 31E-NY-3027571 Serial 252 UNCLASSIFIED//FOUO 31E-NY-3027571 (U//FOUO) (PROTECT SOURCE) Cominuahon of FD-102 of Interview #2 .On 08/07/2019 ,page 8 of 10 tomboy). II could not recall the identities of the other individuals present; however, they all exited when TRUMP asked everyone to leave the room. TRUMP mentioned something to the effect of, \"Let me teach you how little girls are supposed to be.\" TRUMP unzipped his pants and put head, \"down to his penis\". II, \"bit the shit out of it.\" TRUMP struck II and said words to the effect of, \"get this little bitch the hell out of here.\"",
+    "score": 2,
+    "url": "https://www.reddit.com/r/ProgressiveHQ/comments/1rmeozh/dt_is_a_pedo/",
+    "media": {
+      "video": null,
+      "image": "results\\downloads\\ProgressiveHQ\\1rmeozh\\cPKoAyuDPza0WSZyECABL7wJZHrApB8dZbFx05SY8hI.png"
+    },
+    "sarcasm_result": {
+      "prediction": "NOT SARCASTIC",
+      "confidence": 0.6636742949485779,
+      "probabilities": {
+        "not_sarcastic": 0.6636742949485779,
+        "sarcastic": 0.3363257646560669
+      }
+    },
+    "keyword": "Donald trump",
+    "post_id": "1rmeozh",
+    "permalink": "/r/ProgressiveHQ/comments/1rmeozh/dt_is_a_pedo/"
   }
 ]
